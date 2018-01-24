@@ -17,6 +17,7 @@
 package com.google.gson;
 
 import java.lang.reflect.Field;
+import java.util.Locale;
 
 /**
  * An enumeration that defines a few standard naming conventions for JSON field names.
@@ -34,7 +35,7 @@ public enum FieldNamingPolicy implements FieldNamingStrategy {
    * unchanged.
    */
   IDENTITY() {
-    public String translateName(Field f) {
+    @Override public String translateName(Field f) {
       return f.getName();
     }
   },
@@ -50,7 +51,7 @@ public enum FieldNamingPolicy implements FieldNamingStrategy {
    * </ul>
    */
   UPPER_CAMEL_CASE() {
-    public String translateName(Field f) {
+    @Override public String translateName(Field f) {
       return upperCaseFirstLetter(f.getName());
     }
   },
@@ -69,7 +70,7 @@ public enum FieldNamingPolicy implements FieldNamingStrategy {
    * @since 1.4
    */
   UPPER_CAMEL_CASE_WITH_SPACES() {
-    public String translateName(Field f) {
+    @Override public String translateName(Field f) {
       return upperCaseFirstLetter(separateCamelCase(f.getName(), " "));
     }
   },
@@ -87,8 +88,8 @@ public enum FieldNamingPolicy implements FieldNamingStrategy {
    * </ul>
    */
   LOWER_CASE_WITH_UNDERSCORES() {
-    public String translateName(Field f) {
-      return separateCamelCase(f.getName(), "_").toLowerCase();
+    @Override public String translateName(Field f) {
+      return separateCamelCase(f.getName(), "_").toLowerCase(Locale.ENGLISH);
     }
   },
 
@@ -110,8 +111,8 @@ public enum FieldNamingPolicy implements FieldNamingStrategy {
    * @since 1.4
    */
   LOWER_CASE_WITH_DASHES() {
-    public String translateName(Field f) {
-      return separateCamelCase(f.getName(), "-").toLowerCase();
+    @Override public String translateName(Field f) {
+      return separateCamelCase(f.getName(), "-").toLowerCase(Locale.ENGLISH);
     }
   };
 
@@ -119,9 +120,9 @@ public enum FieldNamingPolicy implements FieldNamingStrategy {
    * Converts the field name that uses camel-case define word separation into
    * separate words that are separated by the provided {@code separatorString}.
    */
-  private static String separateCamelCase(String name, String separator) {
+  static String separateCamelCase(String name, String separator) {
     StringBuilder translation = new StringBuilder();
-    for (int i = 0; i < name.length(); i++) {
+    for (int i = 0, length = name.length(); i < length; i++) {
       char character = name.charAt(i);
       if (Character.isUpperCase(character) && translation.length() != 0) {
         translation.append(separator);
@@ -134,22 +135,19 @@ public enum FieldNamingPolicy implements FieldNamingStrategy {
   /**
    * Ensures the JSON field names begins with an upper case letter.
    */
-  private static String upperCaseFirstLetter(String name) {
+  static String upperCaseFirstLetter(String name) {
     StringBuilder fieldNameBuilder = new StringBuilder();
     int index = 0;
     char firstCharacter = name.charAt(index);
+    int length = name.length();
 
-    while (index < name.length() - 1) {
+    while (index < length - 1) {
       if (Character.isLetter(firstCharacter)) {
         break;
       }
 
       fieldNameBuilder.append(firstCharacter);
       firstCharacter = name.charAt(++index);
-    }
-
-    if (index == name.length()) {
-      return fieldNameBuilder.toString();
     }
 
     if (!Character.isUpperCase(firstCharacter)) {

@@ -33,8 +33,12 @@ public final class JsonObject extends JsonElement {
   private final LinkedTreeMap<String, JsonElement> members =
       new LinkedTreeMap<String, JsonElement>();
 
+  /**
+   * Creates a deep copy of this element and all its children
+   * @since 2.8.2
+   */
   @Override
-  JsonObject deepCopy() {
+  public JsonObject deepCopy() {
     JsonObject result = new JsonObject();
     for (Map.Entry<String, JsonElement> entry : members.entrySet()) {
       result.add(entry.getKey(), entry.getValue().deepCopy());
@@ -130,6 +134,25 @@ public final class JsonObject extends JsonElement {
    */
   public Set<Map.Entry<String, JsonElement>> entrySet() {
     return members.entrySet();
+  }
+
+  /**
+   * Returns a set of members key values.
+   *
+   * @return a set of member keys as Strings
+   * @since 2.8.1
+   */
+  public Set<String> keySet() {
+    return members.keySet();
+  }
+
+  /**
+   * Returns the number of key/value pairs in the object.
+   *
+   * @return the number of key/value pairs in the object.
+   */
+  public int size() {
+    return members.size();
   }
 
   /**
