@@ -12,20 +12,24 @@ CLASS_PATH="./src/main/java"
 
 for f in $BUILD/java/*.java; do
 
-	echo $f
   FILE_NAME=`basename $f`
 	NAME=${FILE_NAME//".java"/""}
 	FILE_M="${NAME}.m"
+
+	echo "** j2objc compile $FILE_NAME"
 
 	j2objc -d $BUILD/objc \
     -sourcepath "$BUILD/java/**.java" \
     -classpath $CLASS_PATH \
     -use-arc --prefixes $BUILD/java/packages.properties \
     --swift-friendly \
-    --verbose \
     --no-package-directories $f
 
 done
 
-rm -R ios/Classes/*
-cp $BUILD/objc/* ios/Classes
+
+## prepare and copy ios sources to pod project
+
+APP_IOS_SOURCES=ios/J2ObjCGson/Classes
+rm -R $APP_IOS_SOURCES/*
+cp $BUILD/objc/* $APP_IOS_SOURCES/
