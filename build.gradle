@@ -1,7 +1,7 @@
 apply plugin: 'java-library'
 
 repositories {
-    jcenter()
+  jcenter()
 }
 
 dependencies {
@@ -14,3 +14,4 @@ task j2objc(type: Exec) {
 }
 
 tasks.assemble.finalizedBy(j2objc)
+tasks.build.finalizedBy(j2objc)
