@@ -21,6 +21,8 @@ import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.ParsePosition;
+import java.text.FieldPosition;
+import java.lang.StringBuffer;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -41,11 +43,14 @@ import com.google.gson.util.VersionUtils;
  * @author Inderjeet Singh
  * @author Joel Leitch
  */
-final class DefaultDateTypeAdapter extends TypeAdapter<Date> {
+public final class DefaultDateTypeAdapter extends TypeAdapter<Date> {
 
   private static final String SIMPLE_NAME = "DefaultDateTypeAdapter";
 
   private final Class<? extends Date> dateType;
+
+  // change 2019-05-25T15:12:35-0300 (go lang default) to 2019-05-25T15:12:35-03:00
+  public static boolean GO_LANG_COMPAT = false;
 
   /**
    * List of 1 or more different date formats used for de-serialization attempts.
@@ -66,9 +71,50 @@ final class DefaultDateTypeAdapter extends TypeAdapter<Date> {
 
   DefaultDateTypeAdapter(Class<? extends Date> dateType, String datePattern) {
     this.dateType = verifyDateType(dateType);
-    dateFormats.add(new SimpleDateFormat(datePattern, Locale.US));
-    if (!Locale.getDefault().equals(Locale.US)) {
-      dateFormats.add(new SimpleDateFormat(datePattern));
+
+    if(GO_LANG_COMPAT && datePattern.endsWith("Z")){
+
+      dateFormats.add(new SimpleDateFormat(datePattern, Locale.US){
+
+          @Override
+          public StringBuffer format(Date date, StringBuffer toAppendTo, FieldPosition pos) {
+              StringBuffer rfcFormat = super.format(date, toAppendTo, pos);
+              return rfcFormat.insert(rfcFormat.length() - 2, ":");
+          }
+
+          @Override
+          public Date parse(String text, ParsePosition pos) {
+              if (text.length() > 3) {
+                  text = text.substring(0, text.length() - 3) + text.substring(text.length() - 2);
+              }
+              return super.parse(text, pos);
+          }
+      });
+
+      if (!Locale.getDefault().equals(Locale.US)) {
+        dateFormats.add(new SimpleDateFormat(datePattern){
+
+          @Override
+          public StringBuffer format(Date date, StringBuffer toAppendTo, FieldPosition pos) {
+              StringBuffer rfcFormat = super.format(date, toAppendTo, pos);
+              return rfcFormat.insert(rfcFormat.length() - 2, ":");
+          }
+
+          @Override
+          public Date parse(String text, ParsePosition pos) {
+              if (text.length() > 3) {
+                  text = text.substring(0, text.length() - 3) + text.substring(text.length() - 2);
+              }
+              return super.parse(text, pos);
+          }
+        });
+      }
+
+    } else {
+      dateFormats.add(new SimpleDateFormat(datePattern, Locale.US));
+      if (!Locale.getDefault().equals(Locale.US)) {
+        dateFormats.add(new SimpleDateFormat(datePattern));
+      }
     }
   }
 
