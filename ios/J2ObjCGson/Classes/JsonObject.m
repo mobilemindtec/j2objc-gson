@@ -170,7 +170,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "members_", "LGsonLinkedTreeMap;", .constantValue.asLong = 0, 0x12, -1, -1, 20, -1 },
   };
   static const void *ptrTable[] = { "add", "LNSString;LGsonJsonElement;", "remove", "LNSString;", "addProperty", "LNSString;LNSString;", "LNSString;LNSNumber;", "LNSString;LJavaLangBoolean;", "LNSString;LJavaLangCharacter;", "createJsonElement", "LNSObject;", "()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;Lcom/google/gson/JsonElement;>;>;", "()Ljava/util/Set<Ljava/lang/String;>;", "has", "get", "getAsJsonPrimitive", "getAsJsonArray", "getAsJsonObject", "equals", "hashCode", "Lcom/google/gson/internal/LinkedTreeMap<Ljava/lang/String;Lcom/google/gson/JsonElement;>;" };
-  static const J2ObjcClassInfo _GsonJsonObject = { "JsonObject", "com.google.gson", ptrTable, methods, fields, 7, 0x11, 19, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonObject = { "JsonObject", "j2objc.gson", ptrTable, methods, fields, 7, 0x11, 19, 1, -1, -1, -1, -1, -1 };
   return &_GsonJsonObject;
 }
 
@@ -195,4 +195,4 @@ GsonJsonElement *GsonJsonObject_createJsonElementWithId_(GsonJsonObject *self, i
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonObject)
 
-J2OBJC_NAME_MAPPING(GsonJsonObject, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonObject, "j2objc.gson", "Gson")

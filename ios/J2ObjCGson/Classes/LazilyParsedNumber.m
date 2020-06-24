@@ -115,7 +115,7 @@ __attribute__((unused)) static id GsonLazilyParsedNumber_writeReplace(GsonLazily
     { "value_", "LNSString;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LNSString;", "longValue", "toString", "LJavaIoObjectStreamException;", "hashCode", "equals", "LNSObject;" };
-  static const J2ObjcClassInfo _GsonLazilyParsedNumber = { "LazilyParsedNumber", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x11, 9, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonLazilyParsedNumber = { "LazilyParsedNumber", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x11, 9, 1, -1, -1, -1, -1, -1 };
   return &_GsonLazilyParsedNumber;
 }
 
@@ -140,4 +140,4 @@ id GsonLazilyParsedNumber_writeReplace(GsonLazilyParsedNumber *self) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonLazilyParsedNumber)
 
-J2OBJC_NAME_MAPPING(GsonLazilyParsedNumber, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonLazilyParsedNumber, "j2objc.gson.internal", "Gson")

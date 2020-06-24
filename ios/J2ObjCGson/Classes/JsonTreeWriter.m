@@ -264,7 +264,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "product_", "LGsonJsonElement;", .constantValue.asLong = 0, 0x2, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "put", "LGsonJsonElement;", "LJavaIoIOException;", "name", "LNSString;", "value", "Z", "LJavaLangBoolean;", "D", "J", "LNSNumber;", &GsonJsonTreeWriter_UNWRITABLE_WRITER, &GsonJsonTreeWriter_SENTINEL_CLOSED, "stack", "Ljava/util/List<Lcom/google/gson/JsonElement;>;" };
-  static const J2ObjcClassInfo _GsonJsonTreeWriter = { "JsonTreeWriter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 18, 5, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonTreeWriter = { "JsonTreeWriter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 18, 5, -1, -1, -1, -1, -1 };
   return &_GsonJsonTreeWriter;
 }
 
@@ -320,7 +320,7 @@ void GsonJsonTreeWriter_putWithGsonJsonElement_(GsonJsonTreeWriter *self, GsonJs
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonTreeWriter)
 
-J2OBJC_NAME_MAPPING(GsonJsonTreeWriter, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonTreeWriter, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonJsonTreeWriter_1
 
@@ -361,7 +361,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[3].selector = @selector(close);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "write", "[CII", "LJavaIoIOException;", "LGsonJsonTreeWriter;" };
-  static const J2ObjcClassInfo _GsonJsonTreeWriter_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 4, 0, 3, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonTreeWriter_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 4, 0, 3, -1, -1, -1, -1 };
   return &_GsonJsonTreeWriter_1;
 }
 

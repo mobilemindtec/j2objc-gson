@@ -143,7 +143,7 @@ J2OBJC_TYPE_LITERAL_HEADER(GsonMapTypeAdapterFactory_Adapter)
     { "complexMapKeySerialization_", "Z", .constantValue.asLong = 0, 0x10, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LGsonConstructorConstructor;Z", "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "getKeyAdapter", "LGsonGson;LJavaLangReflectType;", "(Lcom/google/gson/Gson;Ljava/lang/reflect/Type;)Lcom/google/gson/TypeAdapter<*>;", "LGsonMapTypeAdapterFactory_Adapter;" };
-  static const J2ObjcClassInfo _GsonMapTypeAdapterFactory = { "MapTypeAdapterFactory", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 2, -1, 7, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonMapTypeAdapterFactory = { "MapTypeAdapterFactory", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 2, -1, 7, -1, -1, -1 };
   return &_GsonMapTypeAdapterFactory;
 }
 
@@ -169,7 +169,7 @@ GsonTypeAdapter *GsonMapTypeAdapterFactory_getKeyAdapterWithGsonGson_withJavaLan
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonMapTypeAdapterFactory)
 
-J2OBJC_NAME_MAPPING(GsonMapTypeAdapterFactory, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonMapTypeAdapterFactory, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonMapTypeAdapterFactory_Adapter
 
@@ -292,7 +292,7 @@ J2OBJC_NAME_MAPPING(GsonMapTypeAdapterFactory, "com.google.gson.internal.bind", 
     { "constructor_", "LGsonObjectConstructor;", .constantValue.asLong = 0, 0x12, -1, -1, 13, -1 },
   };
   static const void *ptrTable[] = { "LGsonGson;LJavaLangReflectType;LGsonTypeAdapter;LJavaLangReflectType;LGsonTypeAdapter;LGsonObjectConstructor;", "(Lcom/google/gson/Gson;Ljava/lang/reflect/Type;Lcom/google/gson/TypeAdapter<TK;>;Ljava/lang/reflect/Type;Lcom/google/gson/TypeAdapter<TV;>;Lcom/google/gson/internal/ObjectConstructor<+Ljava/util/Map<TK;TV;>;>;)V", "read", "LGsonJsonReader;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonReader;)Ljava/util/Map<TK;TV;>;", "write", "LGsonJsonWriter;LJavaUtilMap;", "(Lcom/google/gson/stream/JsonWriter;Ljava/util/Map<TK;TV;>;)V", "keyToString", "LGsonJsonElement;", "Lcom/google/gson/TypeAdapter<TK;>;", "Lcom/google/gson/TypeAdapter<TV;>;", "Lcom/google/gson/internal/ObjectConstructor<+Ljava/util/Map<TK;TV;>;>;", "LGsonMapTypeAdapterFactory;", "<K:Ljava/lang/Object;V:Ljava/lang/Object;>Lcom/google/gson/TypeAdapter<Ljava/util/Map<TK;TV;>;>;" };
-  static const J2ObjcClassInfo _GsonMapTypeAdapterFactory_Adapter = { "Adapter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x12, 4, 4, 14, -1, -1, 15, -1 };
+  static const J2ObjcClassInfo _GsonMapTypeAdapterFactory_Adapter = { "Adapter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x12, 4, 4, 14, -1, -1, 15, -1 };
   return &_GsonMapTypeAdapterFactory_Adapter;
 }
 

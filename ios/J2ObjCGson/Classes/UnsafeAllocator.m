@@ -132,7 +132,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[3].selector = @selector(assertInstantiableWithIOSClass:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "newInstance", "LIOSClass;", "LJavaLangException;", "<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;", "assertInstantiable", "(Ljava/lang/Class<*>;)V" };
-  static const J2ObjcClassInfo _GsonUnsafeAllocator = { "UnsafeAllocator", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x401, 4, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonUnsafeAllocator = { "UnsafeAllocator", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x401, 4, 0, -1, -1, -1, -1, -1 };
   return &_GsonUnsafeAllocator;
 }
 
@@ -187,7 +187,7 @@ void GsonUnsafeAllocator_assertInstantiableWithIOSClass_(IOSClass *c) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonUnsafeAllocator)
 
-J2OBJC_NAME_MAPPING(GsonUnsafeAllocator, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonUnsafeAllocator, "j2objc.gson.internal", "Gson")
 
 @implementation GsonUnsafeAllocator_1
 
@@ -218,7 +218,7 @@ J2OBJC_NAME_MAPPING(GsonUnsafeAllocator, "com.google.gson.internal", "Gson")
     { "val$unsafe_", "LNSObject;", .constantValue.asLong = 0, 0x1012, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "newInstance", "LIOSClass;", "LJavaLangException;", "<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;", "LGsonUnsafeAllocator;", "create" };
-  static const J2ObjcClassInfo _GsonUnsafeAllocator_1 = { "", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 2, 4, -1, 5, -1, -1 };
+  static const J2ObjcClassInfo _GsonUnsafeAllocator_1 = { "", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 2, 4, -1, 5, -1, -1 };
   return &_GsonUnsafeAllocator_1;
 }
 
@@ -267,7 +267,7 @@ GsonUnsafeAllocator_1 *create_GsonUnsafeAllocator_1_initWithJavaLangReflectMetho
     { "val$constructorId_", "I", .constantValue.asLong = 0, 0x1012, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "newInstance", "LIOSClass;", "LJavaLangException;", "<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;", "LGsonUnsafeAllocator;", "create" };
-  static const J2ObjcClassInfo _GsonUnsafeAllocator_2 = { "", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 2, 4, -1, 5, -1, -1 };
+  static const J2ObjcClassInfo _GsonUnsafeAllocator_2 = { "", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 2, 4, -1, 5, -1, -1 };
   return &_GsonUnsafeAllocator_2;
 }
 
@@ -314,7 +314,7 @@ GsonUnsafeAllocator_2 *create_GsonUnsafeAllocator_2_initWithJavaLangReflectMetho
     { "val$newInstance_", "LJavaLangReflectMethod;", .constantValue.asLong = 0, 0x1012, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "newInstance", "LIOSClass;", "LJavaLangException;", "<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;", "LGsonUnsafeAllocator;", "create" };
-  static const J2ObjcClassInfo _GsonUnsafeAllocator_3 = { "", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 1, 4, -1, 5, -1, -1 };
+  static const J2ObjcClassInfo _GsonUnsafeAllocator_3 = { "", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 1, 4, -1, 5, -1, -1 };
   return &_GsonUnsafeAllocator_3;
 }
 
@@ -358,7 +358,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(newInstanceWithIOSClass:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "newInstance", "LIOSClass;", "<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;", "LGsonUnsafeAllocator;", "create" };
-  static const J2ObjcClassInfo _GsonUnsafeAllocator_4 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, 4, -1, -1 };
+  static const J2ObjcClassInfo _GsonUnsafeAllocator_4 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, 4, -1, -1 };
   return &_GsonUnsafeAllocator_4;
 }
 

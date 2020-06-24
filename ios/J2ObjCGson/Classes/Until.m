@@ -25,7 +25,7 @@ __attribute__((unused)) static IOSObjectArray *GsonUntil__Annotations$0(void);
 }
 
 - (NSString *)description {
-  return [NSString stringWithFormat:@"@com.google.gson.annotations.Until(value=%lf)", value_];
+  return [NSString stringWithFormat:@"@j2objc.gson.annotations.Until(value=%lf)", value_];
 }
 
 - (jboolean)isEqual:(id)obj {
@@ -49,7 +49,7 @@ __attribute__((unused)) static IOSObjectArray *GsonUntil__Annotations$0(void);
     { "value_", "D", .constantValue.asLong = 0, 0x1000, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { (void *)&GsonUntil__Annotations$0 };
-  static const J2ObjcClassInfo _GsonUntil = { "Until", "com.google.gson.annotations", ptrTable, methods, fields, 7, 0x2609, 1, 1, -1, -1, -1, -1, 0 };
+  static const J2ObjcClassInfo _GsonUntil = { "Until", "j2objc.gson.annotations", ptrTable, methods, fields, 7, 0x2609, 1, 1, -1, -1, -1, -1, 0 };
   return &_GsonUntil;
 }
 
@@ -67,4 +67,4 @@ IOSObjectArray *GsonUntil__Annotations$0() {
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonUntil)
 
-J2OBJC_NAME_MAPPING(GsonUntil, "com.google.gson.annotations", "Gson")
+J2OBJC_NAME_MAPPING(GsonUntil, "j2objc.gson.annotations", "Gson")

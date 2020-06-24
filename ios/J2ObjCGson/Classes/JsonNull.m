@@ -61,7 +61,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "INSTANCE", "LGsonJsonNull;", .constantValue.asLong = 0, 0x19, -1, 4, -1, -1 },
   };
   static const void *ptrTable[] = { (void *)&GsonJsonNull__Annotations$0, "hashCode", "equals", "LNSObject;", &GsonJsonNull_INSTANCE };
-  static const J2ObjcClassInfo _GsonJsonNull = { "JsonNull", "com.google.gson", ptrTable, methods, fields, 7, 0x11, 4, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonNull = { "JsonNull", "j2objc.gson", ptrTable, methods, fields, 7, 0x11, 4, 1, -1, -1, -1, -1, -1 };
   return &_GsonJsonNull;
 }
 
@@ -92,4 +92,4 @@ IOSObjectArray *GsonJsonNull__Annotations$0() {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonNull)
 
-J2OBJC_NAME_MAPPING(GsonJsonNull, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonNull, "j2objc.gson", "Gson")

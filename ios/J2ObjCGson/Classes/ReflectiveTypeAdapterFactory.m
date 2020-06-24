@@ -202,7 +202,7 @@ J2OBJC_FIELD_SETTER(GsonReflectiveTypeAdapterFactory_Adapter, boundFields_, id<J
     { "accessor_", "LComGoogleGsonInternalReflectReflectionAccessor;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LGsonConstructorConstructor;LGsonFieldNamingStrategy;LGsonExcluder;LGsonJsonAdapterAnnotationTypeAdapterFactory;", "excludeField", "LJavaLangReflectField;Z", "LJavaLangReflectField;ZLGsonExcluder;", "getFieldNames", "LJavaLangReflectField;", "(Ljava/lang/reflect/Field;)Ljava/util/List<Ljava/lang/String;>;", "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "createBoundField", "LGsonGson;LJavaLangReflectField;LNSString;LGsonTypeToken;ZZ", "(Lcom/google/gson/Gson;Ljava/lang/reflect/Field;Ljava/lang/String;Lcom/google/gson/reflect/TypeToken<*>;ZZ)Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundField;", "getBoundFields", "LGsonGson;LGsonTypeToken;LIOSClass;", "(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<*>;Ljava/lang/Class<*>;)Ljava/util/Map<Ljava/lang/String;Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundField;>;", "LGsonReflectiveTypeAdapterFactory_BoundField;LGsonReflectiveTypeAdapterFactory_Adapter;" };
-  static const J2ObjcClassInfo _GsonReflectiveTypeAdapterFactory = { "ReflectiveTypeAdapterFactory", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 7, 5, -1, 16, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonReflectiveTypeAdapterFactory = { "ReflectiveTypeAdapterFactory", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 7, 5, -1, 16, -1, -1, -1 };
   return &_GsonReflectiveTypeAdapterFactory;
 }
 
@@ -311,7 +311,7 @@ id<JavaUtilMap> GsonReflectiveTypeAdapterFactory_getBoundFieldsWithGsonGson_with
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonReflectiveTypeAdapterFactory)
 
-J2OBJC_NAME_MAPPING(GsonReflectiveTypeAdapterFactory, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonReflectiveTypeAdapterFactory, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonReflectiveTypeAdapterFactory_BoundField
 
@@ -361,7 +361,7 @@ J2OBJC_NAME_MAPPING(GsonReflectiveTypeAdapterFactory, "com.google.gson.internal.
     { "deserialized_", "Z", .constantValue.asLong = 0, 0x10, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LNSString;ZZ", "writeField", "LNSObject;", "LJavaIoIOException;LJavaLangIllegalAccessException;", "write", "LGsonJsonWriter;LNSObject;", "read", "LGsonJsonReader;LNSObject;", "LGsonReflectiveTypeAdapterFactory;" };
-  static const J2ObjcClassInfo _GsonReflectiveTypeAdapterFactory_BoundField = { "BoundField", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x408, 4, 3, 8, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonReflectiveTypeAdapterFactory_BoundField = { "BoundField", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x408, 4, 3, 8, -1, -1, -1, -1 };
   return &_GsonReflectiveTypeAdapterFactory_BoundField;
 }
 
@@ -436,7 +436,7 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonReflectiveTypeAdapterFactory_BoundField)
     { "val$isPrimitive_", "Z", .constantValue.asLong = 0, 0x1012, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LNSString;ZZ", "write", "LGsonJsonWriter;LNSObject;", "LJavaIoIOException;LJavaLangIllegalAccessException;", "read", "LGsonJsonReader;LNSObject;", "writeField", "LNSObject;", "Lcom/google/gson/TypeAdapter<*>;", "Lcom/google/gson/reflect/TypeToken<*>;", "LGsonReflectiveTypeAdapterFactory;", "createBoundFieldWithGsonGson:withJavaLangReflectField:withNSString:withGsonTypeToken:withBoolean:withBoolean:" };
-  static const J2ObjcClassInfo _GsonReflectiveTypeAdapterFactory_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 4, 6, 10, -1, 11, -1, -1 };
+  static const J2ObjcClassInfo _GsonReflectiveTypeAdapterFactory_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 4, 6, 10, -1, 11, -1, -1 };
   return &_GsonReflectiveTypeAdapterFactory_1;
 }
 
@@ -536,7 +536,7 @@ GsonReflectiveTypeAdapterFactory_1 *create_GsonReflectiveTypeAdapterFactory_1_in
     { "boundFields_", "LJavaUtilMap;", .constantValue.asLong = 0, 0x12, -1, -1, 10, -1 },
   };
   static const void *ptrTable[] = { "LGsonObjectConstructor;LJavaUtilMap;", "(Lcom/google/gson/internal/ObjectConstructor<TT;>;Ljava/util/Map<Ljava/lang/String;Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundField;>;)V", "read", "LGsonJsonReader;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonReader;)TT;", "write", "LGsonJsonWriter;LNSObject;", "(Lcom/google/gson/stream/JsonWriter;TT;)V", "Lcom/google/gson/internal/ObjectConstructor<TT;>;", "Ljava/util/Map<Ljava/lang/String;Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundField;>;", "LGsonReflectiveTypeAdapterFactory;", "<T:Ljava/lang/Object;>Lcom/google/gson/TypeAdapter<TT;>;" };
-  static const J2ObjcClassInfo _GsonReflectiveTypeAdapterFactory_Adapter = { "Adapter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x19, 3, 2, 11, -1, -1, 12, -1 };
+  static const J2ObjcClassInfo _GsonReflectiveTypeAdapterFactory_Adapter = { "Adapter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x19, 3, 2, 11, -1, -1, 12, -1 };
   return &_GsonReflectiveTypeAdapterFactory_Adapter;
 }
 

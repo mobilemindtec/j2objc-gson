@@ -118,7 +118,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "dateFormats_", "LJavaUtilList;", .constantValue.asLong = 0, 0x12, -1, -1, 8, -1 },
   };
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "deserializeToDate", "LNSString;", "write", "LGsonJsonWriter;LJavaUtilDate;", &GsonDateTypeAdapter_FACTORY, "Ljava/util/List<Ljava/text/DateFormat;>;", "Lcom/google/gson/TypeAdapter<Ljava/util/Date;>;" };
-  static const J2ObjcClassInfo _GsonDateTypeAdapter = { "DateTypeAdapter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 4, 2, -1, -1, -1, 9, -1 };
+  static const J2ObjcClassInfo _GsonDateTypeAdapter = { "DateTypeAdapter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 4, 2, -1, -1, -1, 9, -1 };
   return &_GsonDateTypeAdapter;
 }
 
@@ -171,7 +171,7 @@ JavaUtilDate *GsonDateTypeAdapter_deserializeToDateWithNSString_(GsonDateTypeAda
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonDateTypeAdapter)
 
-J2OBJC_NAME_MAPPING(GsonDateTypeAdapter, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonDateTypeAdapter, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonDateTypeAdapter_1
 
@@ -199,7 +199,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(createWithGsonGson:withGsonTypeToken:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "LGsonDateTypeAdapter;" };
-  static const J2ObjcClassInfo _GsonDateTypeAdapter_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonDateTypeAdapter_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
   return &_GsonDateTypeAdapter_1;
 }
 

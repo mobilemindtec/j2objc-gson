@@ -274,7 +274,7 @@ J2OBJC_INITIALIZED_DEFN(GsonJsonPrimitive)
     { "value_", "LNSObject;", .constantValue.asLong = 0, 0x2, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaLangBoolean;", "LNSNumber;", "LNSString;", "LJavaLangCharacter;", "LNSObject;", "setValue", "isPrimitiveOrString", "hashCode", "equals", "isIntegral", "LGsonJsonPrimitive;", &GsonJsonPrimitive_PRIMITIVE_TYPES, "[Ljava/lang/Class<*>;" };
-  static const J2ObjcClassInfo _GsonJsonPrimitive = { "JsonPrimitive", "com.google.gson", ptrTable, methods, fields, 7, 0x11, 27, 2, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonPrimitive = { "JsonPrimitive", "j2objc.gson", ptrTable, methods, fields, 7, 0x11, 27, 2, -1, -1, -1, -1, -1 };
   return &_GsonJsonPrimitive;
 }
 
@@ -383,4 +383,4 @@ jboolean GsonJsonPrimitive_isIntegralWithGsonJsonPrimitive_(GsonJsonPrimitive *p
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonPrimitive)
 
-J2OBJC_NAME_MAPPING(GsonJsonPrimitive, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonPrimitive, "j2objc.gson", "Gson")

@@ -107,7 +107,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "WRAPPER_TO_PRIMITIVE_TYPE", "LJavaUtilMap;", .constantValue.asLong = 0, 0x1a, -1, 12, 11, -1 },
   };
   static const void *ptrTable[] = { "add", "LJavaUtilMap;LJavaUtilMap;LIOSClass;LIOSClass;", "(Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Class<*>;>;Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Class<*>;>;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)V", "isPrimitive", "LJavaLangReflectType;", "isWrapperType", "wrap", "LIOSClass;", "<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/lang/Class<TT;>;", "unwrap", &GsonPrimitives_PRIMITIVE_TO_WRAPPER_TYPE, "Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Class<*>;>;", &GsonPrimitives_WRAPPER_TO_PRIMITIVE_TYPE };
-  static const J2ObjcClassInfo _GsonPrimitives = { "Primitives", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x11, 6, 2, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonPrimitives = { "Primitives", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x11, 6, 2, -1, -1, -1, -1, -1 };
   return &_GsonPrimitives;
 }
 
@@ -177,4 +177,4 @@ IOSClass *GsonPrimitives_unwrapWithIOSClass_(IOSClass *type) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonPrimitives)
 
-J2OBJC_NAME_MAPPING(GsonPrimitives, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonPrimitives, "j2objc.gson.internal", "Gson")

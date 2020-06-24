@@ -22,7 +22,7 @@
   methods[0].selector = @selector(deserializeWithGsonJsonElement:withJavaLangReflectType:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "deserialize", "LGsonJsonElement;LJavaLangReflectType;", "LGsonJsonParseException;", "<T:Ljava/lang/Object;>(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)TT;" };
-  static const J2ObjcClassInfo _GsonJsonDeserializationContext = { "JsonDeserializationContext", "com.google.gson", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonDeserializationContext = { "JsonDeserializationContext", "j2objc.gson", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, -1, -1 };
   return &_GsonJsonDeserializationContext;
 }
 
@@ -30,4 +30,4 @@
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonJsonDeserializationContext)
 
-J2OBJC_NAME_MAPPING(GsonJsonDeserializationContext, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonDeserializationContext, "j2objc.gson", "Gson")

@@ -212,7 +212,7 @@ __attribute__((unused)) static GsonDefaultDateTypeAdapter_2 *create_GsonDefaultD
     { "dateFormats_", "LJavaUtilList;", .constantValue.asLong = 0, 0x12, -1, -1, 21, -1 },
   };
   static const void *ptrTable[] = { "LIOSClass;", "(Ljava/lang/Class<+Ljava/util/Date;>;)V", "LIOSClass;LNSString;", "(Ljava/lang/Class<+Ljava/util/Date;>;Ljava/lang/String;)V", "LIOSClass;I", "(Ljava/lang/Class<+Ljava/util/Date;>;I)V", "II", "LIOSClass;II", "(Ljava/lang/Class<+Ljava/util/Date;>;II)V", "verifyDateType", "(Ljava/lang/Class<+Ljava/util/Date;>;)Ljava/lang/Class<+Ljava/util/Date;>;", "write", "LGsonJsonWriter;LJavaUtilDate;", "LJavaIoIOException;", "read", "LGsonJsonReader;", "deserializeToDate", "LNSString;", "toString", &GsonDefaultDateTypeAdapter_SIMPLE_NAME, "Ljava/lang/Class<+Ljava/util/Date;>;", "Ljava/util/List<Ljava/text/DateFormat;>;", "Lcom/google/gson/TypeAdapter<Ljava/util/Date;>;" };
-  static const J2ObjcClassInfo _GsonDefaultDateTypeAdapter = { "DefaultDateTypeAdapter", "com.google.gson", ptrTable, methods, fields, 7, 0x10, 10, 3, -1, -1, -1, 22, -1 };
+  static const J2ObjcClassInfo _GsonDefaultDateTypeAdapter = { "DefaultDateTypeAdapter", "j2objc.gson", ptrTable, methods, fields, 7, 0x10, 10, 3, -1, -1, -1, 22, -1 };
   return &_GsonDefaultDateTypeAdapter;
 }
 
@@ -384,7 +384,7 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonDefaultDateTypeAdapter)
   methods[2].selector = @selector(parseWithNSString:withJavaTextParsePosition:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "LNSString;LJavaUtilLocale;", "format", "LJavaUtilDate;LJavaLangStringBuffer;LJavaTextFieldPosition;", "parse", "LNSString;LJavaTextParsePosition;", "LGsonDefaultDateTypeAdapter;", "initWithIOSClass:withNSString:" };
-  static const J2ObjcClassInfo _GsonDefaultDateTypeAdapter_1 = { "", "com.google.gson", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, 6, -1, -1 };
+  static const J2ObjcClassInfo _GsonDefaultDateTypeAdapter_1 = { "", "j2objc.gson", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, 6, -1, -1 };
   return &_GsonDefaultDateTypeAdapter_1;
 }
 
@@ -438,7 +438,7 @@ GsonDefaultDateTypeAdapter_1 *create_GsonDefaultDateTypeAdapter_1_initWithNSStri
   methods[2].selector = @selector(parseWithNSString:withJavaTextParsePosition:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "LNSString;", "format", "LJavaUtilDate;LJavaLangStringBuffer;LJavaTextFieldPosition;", "parse", "LNSString;LJavaTextParsePosition;", "LGsonDefaultDateTypeAdapter;", "initWithIOSClass:withNSString:" };
-  static const J2ObjcClassInfo _GsonDefaultDateTypeAdapter_2 = { "", "com.google.gson", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, 6, -1, -1 };
+  static const J2ObjcClassInfo _GsonDefaultDateTypeAdapter_2 = { "", "j2objc.gson", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, 6, -1, -1 };
   return &_GsonDefaultDateTypeAdapter_2;
 }
 

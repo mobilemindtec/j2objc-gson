@@ -330,7 +330,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "deserializationStrategies_", "LJavaUtilList;", .constantValue.asLong = 0, 0x2, -1, -1, 30, -1 },
   };
   static const void *ptrTable[] = { "clone", "withVersion", "D", "withModifiers", "[I", "withExclusionStrategy", "LGsonExclusionStrategy;ZZ", "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "excludeField", "LJavaLangReflectField;Z", "excludeClassChecks", "LIOSClass;", "(Ljava/lang/Class<*>;)Z", "excludeClass", "LIOSClass;Z", "(Ljava/lang/Class<*>;Z)Z", "excludeClassInStrategy", "isAnonymousOrLocal", "isInnerClass", "isStatic", "isValidVersion", "LGsonSince;LGsonUntil;", "isValidSince", "LGsonSince;", "isValidUntil", "LGsonUntil;", &GsonExcluder_DEFAULT, "version", "Ljava/util/List<Lcom/google/gson/ExclusionStrategy;>;" };
-  static const J2ObjcClassInfo _GsonExcluder = { "Excluder", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x11, 18, 8, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonExcluder = { "Excluder", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x11, 18, 8, -1, -1, -1, -1, -1 };
   return &_GsonExcluder;
 }
 
@@ -425,7 +425,7 @@ jboolean GsonExcluder_isValidUntilWithGsonUntil_(GsonExcluder *self, id<GsonUnti
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonExcluder)
 
-J2OBJC_NAME_MAPPING(GsonExcluder, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonExcluder, "j2objc.gson.internal", "Gson")
 
 @implementation GsonExcluder_1
 
@@ -483,7 +483,7 @@ J2OBJC_NAME_MAPPING(GsonExcluder, "com.google.gson.internal", "Gson")
     { "delegate_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x2, -1, -1, 9, -1 },
   };
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonReader;)TT;", "write", "LGsonJsonWriter;LNSObject;", "(Lcom/google/gson/stream/JsonWriter;TT;)V", "()Lcom/google/gson/TypeAdapter<TT;>;", "Lcom/google/gson/reflect/TypeToken<TT;>;", "Lcom/google/gson/TypeAdapter<TT;>;", "LGsonExcluder;", "createWithGsonGson:withGsonTypeToken:" };
-  static const J2ObjcClassInfo _GsonExcluder_1 = { "", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8018, 4, 6, 10, -1, 11, 9, -1 };
+  static const J2ObjcClassInfo _GsonExcluder_1 = { "", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8018, 4, 6, 10, -1, 11, 9, -1 };
   return &_GsonExcluder_1;
 }
 

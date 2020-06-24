@@ -329,7 +329,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "lenient_", "Z", .constantValue.asLong = 0, 0x2, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LGsonGson;", "setVersion", "D", "excludeFieldsWithModifiers", "[I", "setLongSerializationPolicy", "LGsonLongSerializationPolicy;", "setFieldNamingPolicy", "LGsonFieldNamingPolicy;", "setFieldNamingStrategy", "LGsonFieldNamingStrategy;", "setExclusionStrategies", "[LGsonExclusionStrategy;", "addSerializationExclusionStrategy", "LGsonExclusionStrategy;", "addDeserializationExclusionStrategy", "setDateFormat", "LNSString;", "I", "II", "registerTypeAdapter", "LJavaLangReflectType;LNSObject;", "registerTypeAdapterFactory", "LGsonTypeAdapterFactory;", "registerTypeHierarchyAdapter", "LIOSClass;LNSObject;", "(Ljava/lang/Class<*>;Ljava/lang/Object;)Lcom/google/gson/GsonBuilder;", "addTypeAdaptersForDate", "LNSString;IILJavaUtilList;", "(Ljava/lang/String;IILjava/util/List<Lcom/google/gson/TypeAdapterFactory;>;)V", "Ljava/util/Map<Ljava/lang/reflect/Type;Lcom/google/gson/InstanceCreator<*>;>;", "Ljava/util/List<Lcom/google/gson/TypeAdapterFactory;>;" };
-  static const J2ObjcClassInfo _GsonGsonBuilder = { "GsonBuilder", "com.google.gson", ptrTable, methods, fields, 7, 0x11, 27, 16, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonGsonBuilder = { "GsonBuilder", "j2objc.gson", ptrTable, methods, fields, 7, 0x11, 27, 16, -1, -1, -1, -1, -1 };
   return &_GsonGsonBuilder;
 }
 
@@ -429,4 +429,4 @@ void GsonGsonBuilder_addTypeAdaptersForDateWithNSString_withInt_withInt_withJava
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonGsonBuilder)
 
-J2OBJC_NAME_MAPPING(GsonGsonBuilder, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonGsonBuilder, "j2objc.gson", "Gson")

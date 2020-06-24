@@ -167,7 +167,7 @@ GsonFieldNamingPolicy *GsonFieldNamingPolicy_values_[5];
     { "LOWER_CASE_WITH_DASHES", "LGsonFieldNamingPolicy;", .constantValue.asLong = 0, 0x4019, -1, 11, -1, -1 },
   };
   static const void *ptrTable[] = { "separateCamelCase", "LNSString;LNSString;", "upperCaseFirstLetter", "LNSString;", "modifyString", "CLNSString;I", "valueOf", &JreEnum(GsonFieldNamingPolicy, IDENTITY), &JreEnum(GsonFieldNamingPolicy, UPPER_CAMEL_CASE), &JreEnum(GsonFieldNamingPolicy, UPPER_CAMEL_CASE_WITH_SPACES), &JreEnum(GsonFieldNamingPolicy, LOWER_CASE_WITH_UNDERSCORES), &JreEnum(GsonFieldNamingPolicy, LOWER_CASE_WITH_DASHES), "Ljava/lang/Enum<Lcom/google/gson/FieldNamingPolicy;>;Lcom/google/gson/FieldNamingStrategy;" };
-  static const J2ObjcClassInfo _GsonFieldNamingPolicy = { "FieldNamingPolicy", "com.google.gson", ptrTable, methods, fields, 7, 0x4401, 5, 5, -1, -1, -1, 12, -1 };
+  static const J2ObjcClassInfo _GsonFieldNamingPolicy = { "FieldNamingPolicy", "j2objc.gson", ptrTable, methods, fields, 7, 0x4401, 5, 5, -1, -1, -1, 12, -1 };
   return &_GsonFieldNamingPolicy;
 }
 
@@ -259,7 +259,7 @@ GsonFieldNamingPolicy *GsonFieldNamingPolicy_fromOrdinal(NSUInteger ordinal) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonFieldNamingPolicy)
 
-J2OBJC_NAME_MAPPING(GsonFieldNamingPolicy, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonFieldNamingPolicy, "j2objc.gson", "Gson")
 
 @implementation GsonFieldNamingPolicy_1
 
@@ -281,7 +281,7 @@ J2OBJC_NAME_MAPPING(GsonFieldNamingPolicy, "com.google.gson", "Gson")
   methods[0].selector = @selector(translateNameWithJavaLangReflectField:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "translateName", "LJavaLangReflectField;", "LGsonFieldNamingPolicy;" };
-  static const J2ObjcClassInfo _GsonFieldNamingPolicy_1 = { "", "com.google.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonFieldNamingPolicy_1 = { "", "j2objc.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
   return &_GsonFieldNamingPolicy_1;
 }
 
@@ -315,7 +315,7 @@ GsonFieldNamingPolicy_1 *new_GsonFieldNamingPolicy_1_initWithNSString_withInt_(N
   methods[0].selector = @selector(translateNameWithJavaLangReflectField:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "translateName", "LJavaLangReflectField;", "LGsonFieldNamingPolicy;" };
-  static const J2ObjcClassInfo _GsonFieldNamingPolicy_2 = { "", "com.google.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonFieldNamingPolicy_2 = { "", "j2objc.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
   return &_GsonFieldNamingPolicy_2;
 }
 
@@ -349,7 +349,7 @@ GsonFieldNamingPolicy_2 *new_GsonFieldNamingPolicy_2_initWithNSString_withInt_(N
   methods[0].selector = @selector(translateNameWithJavaLangReflectField:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "translateName", "LJavaLangReflectField;", "LGsonFieldNamingPolicy;" };
-  static const J2ObjcClassInfo _GsonFieldNamingPolicy_3 = { "", "com.google.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonFieldNamingPolicy_3 = { "", "j2objc.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
   return &_GsonFieldNamingPolicy_3;
 }
 
@@ -383,7 +383,7 @@ GsonFieldNamingPolicy_3 *new_GsonFieldNamingPolicy_3_initWithNSString_withInt_(N
   methods[0].selector = @selector(translateNameWithJavaLangReflectField:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "translateName", "LJavaLangReflectField;", "LGsonFieldNamingPolicy;" };
-  static const J2ObjcClassInfo _GsonFieldNamingPolicy_4 = { "", "com.google.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonFieldNamingPolicy_4 = { "", "j2objc.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
   return &_GsonFieldNamingPolicy_4;
 }
 
@@ -417,7 +417,7 @@ GsonFieldNamingPolicy_4 *new_GsonFieldNamingPolicy_4_initWithNSString_withInt_(N
   methods[0].selector = @selector(translateNameWithJavaLangReflectField:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "translateName", "LJavaLangReflectField;", "LGsonFieldNamingPolicy;" };
-  static const J2ObjcClassInfo _GsonFieldNamingPolicy_5 = { "", "com.google.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonFieldNamingPolicy_5 = { "", "j2objc.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
   return &_GsonFieldNamingPolicy_5;
 }
 

@@ -143,7 +143,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[9].selector = @selector(fromJsonTreeWithGsonJsonElement:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "write", "LGsonJsonWriter;LNSObject;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonWriter;TT;)V", "toJson", "LJavaIoWriter;LNSObject;", "(Ljava/io/Writer;TT;)V", "()Lcom/google/gson/TypeAdapter<TT;>;", "LNSObject;", "(TT;)Ljava/lang/String;", "toJsonTree", "(TT;)Lcom/google/gson/JsonElement;", "read", "LGsonJsonReader;", "(Lcom/google/gson/stream/JsonReader;)TT;", "fromJson", "LJavaIoReader;", "(Ljava/io/Reader;)TT;", "LNSString;", "(Ljava/lang/String;)TT;", "fromJsonTree", "LGsonJsonElement;", "(Lcom/google/gson/JsonElement;)TT;", "<T:Ljava/lang/Object;>Ljava/lang/Object;" };
-  static const J2ObjcClassInfo _GsonTypeAdapter = { "TypeAdapter", "com.google.gson", ptrTable, methods, NULL, 7, 0x401, 10, 0, -1, -1, -1, 23, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapter = { "TypeAdapter", "j2objc.gson", ptrTable, methods, NULL, 7, 0x401, 10, 0, -1, -1, -1, 23, -1 };
   return &_GsonTypeAdapter;
 }
 
@@ -165,7 +165,7 @@ id GsonTypeAdapter_fromJsonWithJavaIoReader_(GsonTypeAdapter *self, JavaIoReader
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonTypeAdapter)
 
-J2OBJC_NAME_MAPPING(GsonTypeAdapter, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonTypeAdapter, "j2objc.gson", "Gson")
 
 @implementation GsonTypeAdapter_1
 
@@ -209,7 +209,7 @@ J2OBJC_NAME_MAPPING(GsonTypeAdapter, "com.google.gson", "Gson")
     { "this$0_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x1012, -1, -1, 7, -1 },
   };
   static const void *ptrTable[] = { "write", "LGsonJsonWriter;LNSObject;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonWriter;TT;)V", "read", "LGsonJsonReader;", "(Lcom/google/gson/stream/JsonReader;)TT;", "Lcom/google/gson/TypeAdapter<TT;>;", "LGsonTypeAdapter;", "nullSafe" };
-  static const J2ObjcClassInfo _GsonTypeAdapter_1 = { "", "com.google.gson", ptrTable, methods, fields, 7, 0x8018, 3, 1, 8, -1, 9, 7, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapter_1 = { "", "j2objc.gson", ptrTable, methods, fields, 7, 0x8018, 3, 1, 8, -1, 9, 7, -1 };
   return &_GsonTypeAdapter_1;
 }
 

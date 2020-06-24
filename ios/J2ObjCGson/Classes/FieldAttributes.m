@@ -98,7 +98,7 @@ J2OBJC_FIELD_SETTER(GsonFieldAttributes, field_, JavaLangReflectField *)
     { "field_", "LJavaLangReflectField;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaLangReflectField;", "()Ljava/lang/Class<*>;", "getAnnotation", "LIOSClass;", "<T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;", "()Ljava/util/Collection<Ljava/lang/annotation/Annotation;>;", "hasModifier", "I", "get", "LNSObject;", "LJavaLangIllegalAccessException;" };
-  static const J2ObjcClassInfo _GsonFieldAttributes = { "FieldAttributes", "com.google.gson", ptrTable, methods, fields, 7, 0x11, 10, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonFieldAttributes = { "FieldAttributes", "j2objc.gson", ptrTable, methods, fields, 7, 0x11, 10, 1, -1, -1, -1, -1, -1 };
   return &_GsonFieldAttributes;
 }
 
@@ -120,4 +120,4 @@ GsonFieldAttributes *create_GsonFieldAttributes_initWithJavaLangReflectField_(Ja
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonFieldAttributes)
 
-J2OBJC_NAME_MAPPING(GsonFieldAttributes, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonFieldAttributes, "j2objc.gson", "Gson")

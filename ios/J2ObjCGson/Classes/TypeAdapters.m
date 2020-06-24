@@ -1419,7 +1419,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "ENUM_FACTORY", "LGsonTypeAdapterFactory;", .constantValue.asLong = 0, 0x19, -1, 83, -1, -1 },
   };
   static const void *ptrTable[] = { "newFactory", "LGsonTypeToken;LGsonTypeAdapter;", "<TT:Ljava/lang/Object;>(Lcom/google/gson/reflect/TypeToken<TTT;>;Lcom/google/gson/TypeAdapter<TTT;>;)Lcom/google/gson/TypeAdapterFactory;", "LIOSClass;LGsonTypeAdapter;", "<TT:Ljava/lang/Object;>(Ljava/lang/Class<TTT;>;Lcom/google/gson/TypeAdapter<TTT;>;)Lcom/google/gson/TypeAdapterFactory;", "LIOSClass;LIOSClass;LGsonTypeAdapter;", "<TT:Ljava/lang/Object;>(Ljava/lang/Class<TTT;>;Ljava/lang/Class<TTT;>;Lcom/google/gson/TypeAdapter<-TTT;>;)Lcom/google/gson/TypeAdapterFactory;", "newFactoryForMultipleTypes", "<TT:Ljava/lang/Object;>(Ljava/lang/Class<TTT;>;Ljava/lang/Class<+TTT;>;Lcom/google/gson/TypeAdapter<-TTT;>;)Lcom/google/gson/TypeAdapterFactory;", "newTypeHierarchyFactory", "<T1:Ljava/lang/Object;>(Ljava/lang/Class<TT1;>;Lcom/google/gson/TypeAdapter<TT1;>;)Lcom/google/gson/TypeAdapterFactory;", &GsonTypeAdapters_CLASS, "Lcom/google/gson/TypeAdapter<Ljava/lang/Class;>;", &GsonTypeAdapters_CLASS_FACTORY, &GsonTypeAdapters_BIT_SET, "Lcom/google/gson/TypeAdapter<Ljava/util/BitSet;>;", &GsonTypeAdapters_BIT_SET_FACTORY, &GsonTypeAdapters_BOOLEAN, "Lcom/google/gson/TypeAdapter<Ljava/lang/Boolean;>;", &GsonTypeAdapters_BOOLEAN_AS_STRING, &GsonTypeAdapters_BOOLEAN_FACTORY, &GsonTypeAdapters_BYTE, "Lcom/google/gson/TypeAdapter<Ljava/lang/Number;>;", &GsonTypeAdapters_BYTE_FACTORY, &GsonTypeAdapters_SHORT, &GsonTypeAdapters_SHORT_FACTORY, &GsonTypeAdapters_INTEGER, &GsonTypeAdapters_INTEGER_FACTORY, &GsonTypeAdapters_ATOMIC_INTEGER, "Lcom/google/gson/TypeAdapter<Ljava/util/concurrent/atomic/AtomicInteger;>;", &GsonTypeAdapters_ATOMIC_INTEGER_FACTORY, &GsonTypeAdapters_ATOMIC_BOOLEAN, "Lcom/google/gson/TypeAdapter<Ljava/util/concurrent/atomic/AtomicBoolean;>;", &GsonTypeAdapters_ATOMIC_BOOLEAN_FACTORY, &GsonTypeAdapters_ATOMIC_INTEGER_ARRAY, "Lcom/google/gson/TypeAdapter<Ljava/util/concurrent/atomic/AtomicIntegerArray;>;", &GsonTypeAdapters_ATOMIC_INTEGER_ARRAY_FACTORY, &GsonTypeAdapters_LONG, &GsonTypeAdapters_FLOAT, &GsonTypeAdapters_DOUBLE, &GsonTypeAdapters_NUMBER, &GsonTypeAdapters_NUMBER_FACTORY, &GsonTypeAdapters_CHARACTER, "Lcom/google/gson/TypeAdapter<Ljava/lang/Character;>;", &GsonTypeAdapters_CHARACTER_FACTORY, &GsonTypeAdapters_STRING, "Lcom/google/gson/TypeAdapter<Ljava/lang/String;>;", &GsonTypeAdapters_BIG_DECIMAL, "Lcom/google/gson/TypeAdapter<Ljava/math/BigDecimal;>;", &GsonTypeAdapters_BIG_INTEGER, "Lcom/google/gson/TypeAdapter<Ljava/math/BigInteger;>;", &GsonTypeAdapters_STRING_FACTORY, &GsonTypeAdapters_STRING_BUILDER, "Lcom/google/gson/TypeAdapter<Ljava/lang/StringBuilder;>;", &GsonTypeAdapters_STRING_BUILDER_FACTORY, &GsonTypeAdapters_STRING_BUFFER, "Lcom/google/gson/TypeAdapter<Ljava/lang/StringBuffer;>;", &GsonTypeAdapters_STRING_BUFFER_FACTORY, &GsonTypeAdapters_URL, "Lcom/google/gson/TypeAdapter<Ljava/net/URL;>;", &GsonTypeAdapters_URL_FACTORY, &GsonTypeAdapters_URI, "Lcom/google/gson/TypeAdapter<Ljava/net/URI;>;", &GsonTypeAdapters_URI_FACTORY, &GsonTypeAdapters_INET_ADDRESS, "Lcom/google/gson/TypeAdapter<Ljava/net/InetAddress;>;", &GsonTypeAdapters_INET_ADDRESS_FACTORY, &GsonTypeAdapters_UUID, "Lcom/google/gson/TypeAdapter<Ljava/util/UUID;>;", &GsonTypeAdapters_UUID_FACTORY, &GsonTypeAdapters_CURRENCY, "Lcom/google/gson/TypeAdapter<Ljava/util/Currency;>;", &GsonTypeAdapters_CURRENCY_FACTORY, &GsonTypeAdapters_TIMESTAMP_FACTORY, &GsonTypeAdapters_CALENDAR, "Lcom/google/gson/TypeAdapter<Ljava/util/Calendar;>;", &GsonTypeAdapters_CALENDAR_FACTORY, &GsonTypeAdapters_LOCALE, "Lcom/google/gson/TypeAdapter<Ljava/util/Locale;>;", &GsonTypeAdapters_LOCALE_FACTORY, &GsonTypeAdapters_JSON_ELEMENT, "Lcom/google/gson/TypeAdapter<Lcom/google/gson/JsonElement;>;", &GsonTypeAdapters_JSON_ELEMENT_FACTORY, &GsonTypeAdapters_ENUM_FACTORY, "LGsonTypeAdapters_EnumTypeAdapter;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters = { "TypeAdapters", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 6, 52, -1, 84, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters = { "TypeAdapters", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 6, 52, -1, 84, -1, -1, -1 };
   return &_GsonTypeAdapters;
 }
 
@@ -1523,7 +1523,7 @@ id<GsonTypeAdapterFactory> GsonTypeAdapters_newTypeHierarchyFactoryWithIOSClass_
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonTypeAdapters)
 
-J2OBJC_NAME_MAPPING(GsonTypeAdapters, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonTypeAdapters, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonTypeAdapters_1
 
@@ -1557,7 +1557,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(readWithGsonJsonReader:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "write", "LGsonJsonWriter;LIOSClass;", "LJavaIoIOException;", "read", "LGsonJsonReader;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Class;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_1;
 }
 
@@ -1647,7 +1647,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaUtilBitSet;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/util/BitSet;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_2 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_2 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_2;
 }
 
@@ -1705,7 +1705,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaLangBoolean;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Boolean;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_3 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_3 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_3;
 }
 
@@ -1759,7 +1759,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaLangBoolean;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Boolean;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_4 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_4 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_4;
 }
 
@@ -1819,7 +1819,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSNumber;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Number;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_5 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_5 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_5;
 }
 
@@ -1878,7 +1878,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSNumber;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Number;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_6 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_6 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_6;
 }
 
@@ -1937,7 +1937,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSNumber;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Number;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_7 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_7 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_7;
 }
 
@@ -1992,7 +1992,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaUtilConcurrentAtomicAtomicInteger;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/util/concurrent/atomic/AtomicInteger;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_8 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_8 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_8;
 }
 
@@ -2042,7 +2042,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaUtilConcurrentAtomicAtomicBoolean;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/util/concurrent/atomic/AtomicBoolean;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_9 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_9 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_9;
 }
 
@@ -2113,7 +2113,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaUtilConcurrentAtomicAtomicIntegerArray;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/util/concurrent/atomic/AtomicIntegerArray;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_10 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_10 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_10;
 }
 
@@ -2172,7 +2172,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSNumber;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Number;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_11 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_11 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_11;
 }
 
@@ -2226,7 +2226,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSNumber;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Number;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_12 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_12 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_12;
 }
 
@@ -2280,7 +2280,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSNumber;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Number;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_13 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_13 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_13;
 }
 
@@ -2340,7 +2340,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSNumber;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Number;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_14 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_14 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_14;
 }
 
@@ -2398,7 +2398,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaLangCharacter;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/Character;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_15 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_15 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_15;
 }
 
@@ -2456,7 +2456,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSString;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/String;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_16 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_16 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_16;
 }
 
@@ -2515,7 +2515,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaMathBigDecimal;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/math/BigDecimal;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_17 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_17 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_17;
 }
 
@@ -2574,7 +2574,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaMathBigInteger;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/math/BigInteger;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_18 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_18 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_18;
 }
 
@@ -2628,7 +2628,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaLangStringBuilder;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/StringBuilder;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_19 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_19 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_19;
 }
 
@@ -2682,7 +2682,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaLangStringBuffer;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/lang/StringBuffer;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_20 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_20 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_20;
 }
 
@@ -2737,7 +2737,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaNetURL;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/net/URL;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_21 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_21 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_21;
 }
 
@@ -2797,7 +2797,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaNetURI;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/net/URI;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_22 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_22 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_22;
 }
 
@@ -2851,7 +2851,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaNetInetAddress;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/net/InetAddress;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_23 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_23 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_23;
 }
 
@@ -2905,7 +2905,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaUtilUUID;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/util/UUID;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_24 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_24 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_24;
 }
 
@@ -2955,7 +2955,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaUtilCurrency;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/util/Currency;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_25 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_25 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_25;
 }
 
@@ -3003,7 +3003,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(createWithGsonGson:withGsonTypeToken:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "LGsonTypeAdapters;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_26 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_26 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
   return &_GsonTypeAdapters_26;
 }
 
@@ -3055,7 +3055,7 @@ GsonTypeAdapters_26 *create_GsonTypeAdapters_26_init() {
     { "val$dateTypeAdapter_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x1012, -1, -1, 5, -1 },
   };
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaSqlTimestamp;", "Lcom/google/gson/TypeAdapter<Ljava/util/Date;>;", "LGsonTypeAdapters_26;", "createWithGsonGson:withGsonTypeToken:", "Lcom/google/gson/TypeAdapter<Ljava/sql/Timestamp;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_26_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 1, 6, -1, 7, 8, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_26_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 1, 6, -1, 7, 8, -1 };
   return &_GsonTypeAdapters_26_1;
 }
 
@@ -3165,7 +3165,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "SECOND", "LNSString;", .constantValue.asLong = 0, 0x1a, -1, 10, -1, -1 },
   };
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaUtilCalendar;", &GsonTypeAdapters_27_YEAR, &GsonTypeAdapters_27_MONTH, &GsonTypeAdapters_27_DAY_OF_MONTH, &GsonTypeAdapters_27_HOUR_OF_DAY, &GsonTypeAdapters_27_MINUTE, &GsonTypeAdapters_27_SECOND, "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/util/Calendar;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_27 = { "", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 6, 11, -1, -1, 12, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_27 = { "", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 6, 11, -1, -1, 12, -1 };
   return &_GsonTypeAdapters_27;
 }
 
@@ -3241,7 +3241,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaUtilLocale;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Ljava/util/Locale;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_28 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_28 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_28;
 }
 
@@ -3361,7 +3361,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(writeWithGsonJsonWriter:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LGsonJsonElement;", "LGsonTypeAdapters;", "Lcom/google/gson/TypeAdapter<Lcom/google/gson/JsonElement;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_29 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_29 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 5, -1, -1, 6, -1 };
   return &_GsonTypeAdapters_29;
 }
 
@@ -3417,7 +3417,7 @@ GsonTypeAdapters_29 *create_GsonTypeAdapters_29_init() {
     { "constantToName_", "LJavaUtilMap;", .constantValue.asLong = 0, 0x12, -1, -1, 10, -1 },
   };
   static const void *ptrTable[] = { "LIOSClass;", "(Ljava/lang/Class<TT;>;)V", "read", "LGsonJsonReader;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonReader;)TT;", "write", "LGsonJsonWriter;LJavaLangEnum;", "(Lcom/google/gson/stream/JsonWriter;TT;)V", "Ljava/util/Map<Ljava/lang/String;TT;>;", "Ljava/util/Map<TT;Ljava/lang/String;>;", "LGsonTypeAdapters;", "<T:Ljava/lang/Enum<TT;>;>Lcom/google/gson/TypeAdapter<TT;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_EnumTypeAdapter = { "EnumTypeAdapter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x1a, 3, 2, 11, -1, -1, 12, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_EnumTypeAdapter = { "EnumTypeAdapter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x1a, 3, 2, 11, -1, -1, 12, -1 };
   return &_GsonTypeAdapters_EnumTypeAdapter;
 }
 
@@ -3501,7 +3501,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(createWithGsonGson:withGsonTypeToken:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "LGsonTypeAdapters;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_30 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_30 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
   return &_GsonTypeAdapters_30;
 }
 
@@ -3548,7 +3548,7 @@ GsonTypeAdapters_30 *create_GsonTypeAdapters_30_init() {
     { "val$typeAdapter_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x1012, -1, -1, 4, -1 },
   };
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "Lcom/google/gson/reflect/TypeToken<TTT;>;", "Lcom/google/gson/TypeAdapter<TTT;>;", "LGsonTypeAdapters;", "newFactoryWithGsonTypeToken:withGsonTypeAdapter:" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_31 = { "", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 2, 2, 5, -1, 6, -1, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_31 = { "", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 2, 2, 5, -1, 6, -1, -1 };
   return &_GsonTypeAdapters_31;
 }
 
@@ -3603,7 +3603,7 @@ GsonTypeAdapters_31 *create_GsonTypeAdapters_31_initWithGsonTypeToken_withGsonTy
     { "val$typeAdapter_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x1012, -1, -1, 5, -1 },
   };
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "toString", "Ljava/lang/Class<TTT;>;", "Lcom/google/gson/TypeAdapter<TTT;>;", "LGsonTypeAdapters;", "newFactoryWithIOSClass:withGsonTypeAdapter:" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_32 = { "", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 2, 6, -1, 7, -1, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_32 = { "", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 2, 6, -1, 7, -1, -1 };
   return &_GsonTypeAdapters_32;
 }
 
@@ -3661,7 +3661,7 @@ GsonTypeAdapters_32 *create_GsonTypeAdapters_32_initWithIOSClass_withGsonTypeAda
     { "val$typeAdapter_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x1012, -1, -1, 5, -1 },
   };
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "toString", "Ljava/lang/Class<TTT;>;", "Lcom/google/gson/TypeAdapter<-TTT;>;", "LGsonTypeAdapters;", "newFactoryWithIOSClass:withIOSClass:withGsonTypeAdapter:" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_33 = { "", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 3, 6, -1, 7, -1, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_33 = { "", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 3, 6, -1, 7, -1, -1 };
   return &_GsonTypeAdapters_33;
 }
 
@@ -3720,7 +3720,7 @@ GsonTypeAdapters_33 *create_GsonTypeAdapters_33_initWithIOSClass_withIOSClass_wi
     { "val$typeAdapter_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x1012, -1, -1, 6, -1 },
   };
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "toString", "Ljava/lang/Class<TTT;>;", "Ljava/lang/Class<+TTT;>;", "Lcom/google/gson/TypeAdapter<-TTT;>;", "LGsonTypeAdapters;", "newFactoryForMultipleTypesWithIOSClass:withIOSClass:withGsonTypeAdapter:" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_34 = { "", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 3, 7, -1, 8, -1, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_34 = { "", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 3, 7, -1, 8, -1, -1 };
   return &_GsonTypeAdapters_34;
 }
 
@@ -3780,7 +3780,7 @@ GsonTypeAdapters_34 *create_GsonTypeAdapters_34_initWithIOSClass_withIOSClass_wi
     { "val$typeAdapter_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x1012, -1, -1, 5, -1 },
   };
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T2:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT2;>;)Lcom/google/gson/TypeAdapter<TT2;>;", "toString", "Ljava/lang/Class<TT1;>;", "Lcom/google/gson/TypeAdapter<TT1;>;", "LGsonTypeAdapters;", "newTypeHierarchyFactoryWithIOSClass:withGsonTypeAdapter:" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_35 = { "", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 2, 6, -1, 7, -1, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_35 = { "", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 2, 6, -1, 7, -1, -1 };
   return &_GsonTypeAdapters_35;
 }
 
@@ -3839,7 +3839,7 @@ GsonTypeAdapters_35 *create_GsonTypeAdapters_35_initWithIOSClass_withGsonTypeAda
     { "val$requestedType_", "LIOSClass;", .constantValue.asLong = 0, 0x1012, -1, -1, 7, -1 },
   };
   static const void *ptrTable[] = { "write", "LGsonJsonWriter;LNSObject;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonWriter;TT1;)V", "read", "LGsonJsonReader;", "(Lcom/google/gson/stream/JsonReader;)TT1;", "Ljava/lang/Class<-TT2;>;", "LGsonTypeAdapters_35;", "createWithGsonGson:withGsonTypeToken:", "Lcom/google/gson/TypeAdapter<TT1;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapters_35_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 2, 8, -1, 9, 10, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapters_35_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x8018, 3, 2, 8, -1, 9, 10, -1 };
   return &_GsonTypeAdapters_35_1;
 }
 

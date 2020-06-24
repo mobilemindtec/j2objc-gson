@@ -193,7 +193,7 @@ J2OBJC_TYPE_LITERAL_HEADER(GsonTreeTypeAdapter_GsonContextImpl)
     { "delegate_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x2, -1, -1, 20, -1 },
   };
   static const void *ptrTable[] = { "LGsonJsonSerializer;LGsonJsonDeserializer;LGsonGson;LGsonTypeToken;LGsonTypeAdapterFactory;", "(Lcom/google/gson/JsonSerializer<TT;>;Lcom/google/gson/JsonDeserializer<TT;>;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;Lcom/google/gson/TypeAdapterFactory;)V", "read", "LGsonJsonReader;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonReader;)TT;", "write", "LGsonJsonWriter;LNSObject;", "(Lcom/google/gson/stream/JsonWriter;TT;)V", "()Lcom/google/gson/TypeAdapter<TT;>;", "newFactory", "LGsonTypeToken;LNSObject;", "(Lcom/google/gson/reflect/TypeToken<*>;Ljava/lang/Object;)Lcom/google/gson/TypeAdapterFactory;", "newFactoryWithMatchRawType", "newTypeHierarchyFactory", "LIOSClass;LNSObject;", "(Ljava/lang/Class<*>;Ljava/lang/Object;)Lcom/google/gson/TypeAdapterFactory;", "Lcom/google/gson/JsonSerializer<TT;>;", "Lcom/google/gson/JsonDeserializer<TT;>;", "Lcom/google/gson/reflect/TypeToken<TT;>;", "Lcom/google/gson/TypeAdapter<TT;>;", "LGsonTreeTypeAdapter_SingleTypeFactory;LGsonTreeTypeAdapter_GsonContextImpl;", "<T:Ljava/lang/Object;>Lcom/google/gson/TypeAdapter<TT;>;" };
-  static const J2ObjcClassInfo _GsonTreeTypeAdapter = { "TreeTypeAdapter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 7, 7, -1, 21, -1, 22, -1 };
+  static const J2ObjcClassInfo _GsonTreeTypeAdapter = { "TreeTypeAdapter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 7, 7, -1, 21, -1, 22, -1 };
   return &_GsonTreeTypeAdapter;
 }
 
@@ -240,7 +240,7 @@ id<GsonTypeAdapterFactory> GsonTreeTypeAdapter_newTypeHierarchyFactoryWithIOSCla
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonTreeTypeAdapter)
 
-J2OBJC_NAME_MAPPING(GsonTreeTypeAdapter, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonTreeTypeAdapter, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonTreeTypeAdapter_SingleTypeFactory
 
@@ -277,7 +277,7 @@ J2OBJC_NAME_MAPPING(GsonTreeTypeAdapter, "com.google.gson.internal.bind", "Gson"
     { "deserializer_", "LGsonJsonDeserializer;", .constantValue.asLong = 0, 0x12, -1, -1, 8, -1 },
   };
   static const void *ptrTable[] = { "LNSObject;LGsonTypeToken;ZLIOSClass;", "(Ljava/lang/Object;Lcom/google/gson/reflect/TypeToken<*>;ZLjava/lang/Class<*>;)V", "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "Lcom/google/gson/reflect/TypeToken<*>;", "Ljava/lang/Class<*>;", "Lcom/google/gson/JsonSerializer<*>;", "Lcom/google/gson/JsonDeserializer<*>;", "LGsonTreeTypeAdapter;" };
-  static const J2ObjcClassInfo _GsonTreeTypeAdapter_SingleTypeFactory = { "SingleTypeFactory", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x1a, 2, 5, 9, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonTreeTypeAdapter_SingleTypeFactory = { "SingleTypeFactory", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x1a, 2, 5, 9, -1, -1, -1, -1 };
   return &_GsonTreeTypeAdapter_SingleTypeFactory;
 }
 
@@ -343,7 +343,7 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonTreeTypeAdapter_SingleTypeFactory)
     { "this$0_", "LGsonTreeTypeAdapter;", .constantValue.asLong = 0, 0x1012, -1, -1, 7, -1 },
   };
   static const void *ptrTable[] = { "serialize", "LNSObject;", "LNSObject;LJavaLangReflectType;", "deserialize", "LGsonJsonElement;LJavaLangReflectType;", "LGsonJsonParseException;", "<R:Ljava/lang/Object;>(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)TR;", "Lcom/google/gson/internal/bind/TreeTypeAdapter<TT;>;", "LGsonTreeTypeAdapter;" };
-  static const J2ObjcClassInfo _GsonTreeTypeAdapter_GsonContextImpl = { "GsonContextImpl", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x12, 4, 1, 8, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonTreeTypeAdapter_GsonContextImpl = { "GsonContextImpl", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x12, 4, 1, 8, -1, -1, -1, -1 };
   return &_GsonTreeTypeAdapter_GsonContextImpl;
 }
 

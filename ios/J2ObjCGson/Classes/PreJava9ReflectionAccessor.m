@@ -33,7 +33,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(makeAccessibleWithJavaLangReflectAccessibleObject:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "makeAccessible", "LJavaLangReflectAccessibleObject;" };
-  static const J2ObjcClassInfo _ComGoogleGsonInternalReflectPreJava9ReflectionAccessor = { "PreJava9ReflectionAccessor", "com.google.gson.internal.reflect", ptrTable, methods, NULL, 7, 0x10, 2, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _ComGoogleGsonInternalReflectPreJava9ReflectionAccessor = { "PreJava9ReflectionAccessor", "j2objc.gson.internal.reflect", ptrTable, methods, NULL, 7, 0x10, 2, 0, -1, -1, -1, -1, -1 };
   return &_ComGoogleGsonInternalReflectPreJava9ReflectionAccessor;
 }
 

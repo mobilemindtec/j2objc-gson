@@ -387,7 +387,7 @@ __attribute__((unused)) static GsonConstructorConstructor_14 *create_GsonConstru
     { "accessor_", "LComGoogleGsonInternalReflectReflectionAccessor;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaUtilMap;", "(Ljava/util/Map<Ljava/lang/reflect/Type;Lcom/google/gson/InstanceCreator<*>;>;)V", "get", "LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/internal/ObjectConstructor<TT;>;", "newDefaultConstructor", "LIOSClass;", "<T:Ljava/lang/Object;>(Ljava/lang/Class<-TT;>;)Lcom/google/gson/internal/ObjectConstructor<TT;>;", "newDefaultImplementationConstructor", "LJavaLangReflectType;LIOSClass;", "<T:Ljava/lang/Object;>(Ljava/lang/reflect/Type;Ljava/lang/Class<-TT;>;)Lcom/google/gson/internal/ObjectConstructor<TT;>;", "newUnsafeAllocator", "toString", "Ljava/util/Map<Ljava/lang/reflect/Type;Lcom/google/gson/InstanceCreator<*>;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor = { "ConstructorConstructor", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x11, 6, 2, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor = { "ConstructorConstructor", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x11, 6, 2, -1, -1, -1, -1, -1 };
   return &_GsonConstructorConstructor;
 }
 
@@ -464,7 +464,7 @@ id<GsonObjectConstructor> GsonConstructorConstructor_newUnsafeAllocatorWithJavaL
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonConstructorConstructor)
 
-J2OBJC_NAME_MAPPING(GsonConstructorConstructor, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonConstructorConstructor, "j2objc.gson.internal", "Gson")
 
 @implementation GsonConstructorConstructor_1
 
@@ -494,7 +494,7 @@ J2OBJC_NAME_MAPPING(GsonConstructorConstructor, "com.google.gson.internal", "Gso
     { "val$type_", "LJavaLangReflectType;", .constantValue.asLong = 0, 0x1012, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "()TT;", "Lcom/google/gson/InstanceCreator<TT;>;", "LGsonConstructorConstructor;", "getWithGsonTypeToken:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_1 = { "", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 2, 2, -1, 3, 4, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_1 = { "", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 2, 2, -1, 3, 4, -1 };
   return &_GsonConstructorConstructor_1;
 }
 
@@ -542,7 +542,7 @@ GsonConstructorConstructor_1 *create_GsonConstructorConstructor_1_initWithGsonIn
     { "val$type_", "LJavaLangReflectType;", .constantValue.asLong = 0, 0x1012, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "()TT;", "Lcom/google/gson/InstanceCreator<TT;>;", "LGsonConstructorConstructor;", "getWithGsonTypeToken:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_2 = { "", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 2, 2, -1, 3, 4, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_2 = { "", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 2, 2, -1, 3, 4, -1 };
   return &_GsonConstructorConstructor_2;
 }
 
@@ -600,7 +600,7 @@ GsonConstructorConstructor_2 *create_GsonConstructorConstructor_2_initWithGsonIn
     { "val$constructor_", "LJavaLangReflectConstructor;", .constantValue.asLong = 0, 0x1012, -1, -1, 1, -1 },
   };
   static const void *ptrTable[] = { "()TT;", "Ljava/lang/reflect/Constructor<-TT;>;", "LGsonConstructorConstructor;", "newDefaultConstructorWithIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_3 = { "", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 1, 2, -1, 3, 4, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_3 = { "", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 1, 2, -1, 3, 4, -1 };
   return &_GsonConstructorConstructor_3;
 }
 
@@ -644,7 +644,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_4 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_4 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_4;
 }
 
@@ -699,7 +699,7 @@ GsonConstructorConstructor_4 *create_GsonConstructorConstructor_4_init() {
     { "val$type_", "LJavaLangReflectType;", .constantValue.asLong = 0, 0x1012, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_5 = { "", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 1, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_5 = { "", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 1, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_5;
 }
 
@@ -743,7 +743,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_6 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_6 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_6;
 }
 
@@ -786,7 +786,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_7 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_7 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_7;
 }
 
@@ -829,7 +829,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_8 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_8 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_8;
 }
 
@@ -872,7 +872,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_9 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_9 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_9;
 }
 
@@ -915,7 +915,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_10 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_10 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_10;
 }
 
@@ -958,7 +958,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_11 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_11 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_11;
 }
 
@@ -1001,7 +1001,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_12 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_12 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_12;
 }
 
@@ -1044,7 +1044,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "LGsonConstructorConstructor;", "newDefaultImplementationConstructorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_13 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_13 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonConstructorConstructor_13;
 }
 
@@ -1097,7 +1097,7 @@ GsonConstructorConstructor_13 *create_GsonConstructorConstructor_13_init() {
     { "unsafeAllocator_", "LGsonUnsafeAllocator;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "()TT;", "Ljava/lang/Class<-TT;>;", "LGsonConstructorConstructor;", "newUnsafeAllocatorWithJavaLangReflectType:withIOSClass:", "Ljava/lang/Object;Lcom/google/gson/internal/ObjectConstructor<TT;>;" };
-  static const J2ObjcClassInfo _GsonConstructorConstructor_14 = { "", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 3, 2, -1, 3, 4, -1 };
+  static const J2ObjcClassInfo _GsonConstructorConstructor_14 = { "", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8018, 2, 3, 2, -1, 3, 4, -1 };
   return &_GsonConstructorConstructor_14;
 }
 

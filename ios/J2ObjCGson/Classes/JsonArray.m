@@ -285,7 +285,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "elements_", "LJavaUtilList;", .constantValue.asLong = 0, 0x12, -1, -1, 18, -1 },
   };
   static const void *ptrTable[] = { "I", "add", "LJavaLangBoolean;", "LJavaLangCharacter;", "LNSNumber;", "LNSString;", "LGsonJsonElement;", "addAll", "LGsonJsonArray;", "set", "ILGsonJsonElement;", "remove", "contains", "()Ljava/util/Iterator<Lcom/google/gson/JsonElement;>;", "get", "equals", "LNSObject;", "hashCode", "Ljava/util/List<Lcom/google/gson/JsonElement;>;", "Lcom/google/gson/JsonElement;Ljava/lang/Iterable<Lcom/google/gson/JsonElement;>;" };
-  static const J2ObjcClassInfo _GsonJsonArray = { "JsonArray", "com.google.gson", ptrTable, methods, fields, 7, 0x11, 30, 1, -1, -1, -1, 19, -1 };
+  static const J2ObjcClassInfo _GsonJsonArray = { "JsonArray", "j2objc.gson", ptrTable, methods, fields, 7, 0x11, 30, 1, -1, -1, -1, 19, -1 };
   return &_GsonJsonArray;
 }
 
@@ -319,4 +319,4 @@ GsonJsonArray *create_GsonJsonArray_initWithInt_(jint capacity) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonArray)
 
-J2OBJC_NAME_MAPPING(GsonJsonArray, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonArray, "j2objc.gson", "Gson")

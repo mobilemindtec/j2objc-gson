@@ -397,7 +397,7 @@ J2OBJC_INITIALIZED_DEFN(GsonJsonWriter)
     { "serializeNulls_", "Z", .constantValue.asLong = 0, 0x2, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaIoWriter;", "setIndent", "LNSString;", "setLenient", "Z", "setHtmlSafe", "setSerializeNulls", "LJavaIoIOException;", "open", "ILNSString;", "close", "IILNSString;", "push", "I", "replaceTop", "name", "value", "jsonValue", "LJavaLangBoolean;", "D", "J", "LNSNumber;", "string", &GsonJsonWriter_REPLACEMENT_CHARS, &GsonJsonWriter_HTML_SAFE_REPLACEMENT_CHARS };
-  static const J2ObjcClassInfo _GsonJsonWriter = { "JsonWriter", "com.google.gson.stream", ptrTable, methods, fields, 7, 0x1, 33, 11, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonWriter = { "JsonWriter", "j2objc.gson.stream", ptrTable, methods, fields, 7, 0x1, 33, 11, -1, -1, -1, -1, -1 };
   return &_GsonJsonWriter;
 }
 
@@ -587,4 +587,4 @@ void GsonJsonWriter_beforeValue(GsonJsonWriter *self) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonWriter)
 
-J2OBJC_NAME_MAPPING(GsonJsonWriter, "com.google.gson.stream", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonWriter, "j2objc.gson.stream", "Gson")

@@ -47,7 +47,7 @@ J2OBJC_STATIC_FIELD_CONSTANT(GsonJsonIOException, serialVersionUID, jlong)
     { "serialVersionUID", "J", .constantValue.asLong = GsonJsonIOException_serialVersionUID, 0x1a, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LNSString;", "LNSString;LJavaLangThrowable;", "LJavaLangThrowable;" };
-  static const J2ObjcClassInfo _GsonJsonIOException = { "JsonIOException", "com.google.gson", ptrTable, methods, fields, 7, 0x11, 3, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonIOException = { "JsonIOException", "j2objc.gson", ptrTable, methods, fields, 7, 0x11, 3, 1, -1, -1, -1, -1, -1 };
   return &_GsonJsonIOException;
 }
 
@@ -91,4 +91,4 @@ GsonJsonIOException *create_GsonJsonIOException_initWithJavaLangThrowable_(JavaL
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonIOException)
 
-J2OBJC_NAME_MAPPING(GsonJsonIOException, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonIOException, "j2objc.gson", "Gson")

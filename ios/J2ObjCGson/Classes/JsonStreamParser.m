@@ -110,7 +110,7 @@ J2OBJC_FIELD_SETTER(GsonJsonStreamParser, lock_, id)
     { "lock_", "LNSObject;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LNSString;", "LJavaIoReader;", "LGsonJsonParseException;", "Ljava/lang/Object;Ljava/util/Iterator<Lcom/google/gson/JsonElement;>;" };
-  static const J2ObjcClassInfo _GsonJsonStreamParser = { "JsonStreamParser", "com.google.gson", ptrTable, methods, fields, 7, 0x11, 5, 2, -1, -1, -1, 3, -1 };
+  static const J2ObjcClassInfo _GsonJsonStreamParser = { "JsonStreamParser", "j2objc.gson", ptrTable, methods, fields, 7, 0x11, 5, 2, -1, -1, -1, 3, -1 };
   return &_GsonJsonStreamParser;
 }
 
@@ -145,4 +145,4 @@ GsonJsonStreamParser *create_GsonJsonStreamParser_initWithJavaIoReader_(JavaIoRe
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonStreamParser)
 
-J2OBJC_NAME_MAPPING(GsonJsonStreamParser, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonStreamParser, "j2objc.gson", "Gson")

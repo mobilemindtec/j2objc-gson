@@ -76,7 +76,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[5].selector = @selector(getTimePartOfDateTimePatternWithInt:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "getUSDateFormat", "I", "getUSDateTimeFormat", "II", "getDateFormatPattern", "getDatePartOfDateTimePattern", "getTimePartOfDateTimePattern" };
-  static const J2ObjcClassInfo _GsonPreJava9DateFormatProvider = { "PreJava9DateFormatProvider", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x1, 6, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonPreJava9DateFormatProvider = { "PreJava9DateFormatProvider", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x1, 6, 0, -1, -1, -1, -1, -1 };
   return &_GsonPreJava9DateFormatProvider;
 }
 
@@ -154,4 +154,4 @@ NSString *GsonPreJava9DateFormatProvider_getTimePartOfDateTimePatternWithInt_(ji
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonPreJava9DateFormatProvider)
 
-J2OBJC_NAME_MAPPING(GsonPreJava9DateFormatProvider, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonPreJava9DateFormatProvider, "j2objc.gson.internal", "Gson")

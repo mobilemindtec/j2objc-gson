@@ -25,7 +25,7 @@ __attribute__((unused)) static IOSObjectArray *GsonSince__Annotations$0(void);
 }
 
 - (NSString *)description {
-  return [NSString stringWithFormat:@"@com.google.gson.annotations.Since(value=%lf)", value_];
+  return [NSString stringWithFormat:@"@j2objc.gson.annotations.Since(value=%lf)", value_];
 }
 
 - (jboolean)isEqual:(id)obj {
@@ -49,7 +49,7 @@ __attribute__((unused)) static IOSObjectArray *GsonSince__Annotations$0(void);
     { "value_", "D", .constantValue.asLong = 0, 0x1000, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { (void *)&GsonSince__Annotations$0 };
-  static const J2ObjcClassInfo _GsonSince = { "Since", "com.google.gson.annotations", ptrTable, methods, fields, 7, 0x2609, 1, 1, -1, -1, -1, -1, 0 };
+  static const J2ObjcClassInfo _GsonSince = { "Since", "j2objc.gson.annotations", ptrTable, methods, fields, 7, 0x2609, 1, 1, -1, -1, -1, -1, 0 };
   return &_GsonSince;
 }
 
@@ -67,4 +67,4 @@ IOSObjectArray *GsonSince__Annotations$0() {
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonSince)
 
-J2OBJC_NAME_MAPPING(GsonSince, "com.google.gson.annotations", "Gson")
+J2OBJC_NAME_MAPPING(GsonSince, "j2objc.gson.annotations", "Gson")

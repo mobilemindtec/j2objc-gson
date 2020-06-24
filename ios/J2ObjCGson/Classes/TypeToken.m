@@ -226,7 +226,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "hashCode_", "I", .constantValue.asLong = 0, 0x10, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaLangReflectType;", "getSuperclassTypeParameter", "LIOSClass;", "(Ljava/lang/Class<*>;)Ljava/lang/reflect/Type;", "()Ljava/lang/Class<-TT;>;", "isAssignableFrom", "(Ljava/lang/Class<*>;)Z", (void *)&GsonTypeToken__Annotations$0, (void *)&GsonTypeToken__Annotations$1, "LGsonTypeToken;", "(Lcom/google/gson/reflect/TypeToken<*>;)Z", (void *)&GsonTypeToken__Annotations$2, "LJavaLangReflectType;LJavaLangReflectGenericArrayType;", "LJavaLangReflectType;LJavaLangReflectParameterizedType;LJavaUtilMap;", "(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/reflect/Type;>;)Z", "typeEquals", "LJavaLangReflectParameterizedType;LJavaLangReflectParameterizedType;LJavaUtilMap;", "(Ljava/lang/reflect/ParameterizedType;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/reflect/Type;>;)Z", "buildUnexpectedTypeError", "LJavaLangReflectType;[LIOSClass;", "(Ljava/lang/reflect/Type;[Ljava/lang/Class<*>;)Ljava/lang/AssertionError;", "matches", "LJavaLangReflectType;LJavaLangReflectType;LJavaUtilMap;", "(Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;Ljava/util/Map<Ljava/lang/String;Ljava/lang/reflect/Type;>;)Z", "hashCode", "equals", "LNSObject;", "toString", "get", "(Ljava/lang/reflect/Type;)Lcom/google/gson/reflect/TypeToken<*>;", "<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lcom/google/gson/reflect/TypeToken<TT;>;", "getParameterized", "LJavaLangReflectType;[LJavaLangReflectType;", "(Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;)Lcom/google/gson/reflect/TypeToken<*>;", "getArray", "Ljava/lang/Class<-TT;>;", "<T:Ljava/lang/Object;>Ljava/lang/Object;" };
-  static const J2ObjcClassInfo _GsonTypeToken = { "TypeToken", "com.google.gson.reflect", ptrTable, methods, fields, 7, 0x1, 20, 3, -1, -1, -1, 36, -1 };
+  static const J2ObjcClassInfo _GsonTypeToken = { "TypeToken", "j2objc.gson.reflect", ptrTable, methods, fields, 7, 0x1, 20, 3, -1, -1, -1, 36, -1 };
   return &_GsonTypeToken;
 }
 
@@ -410,4 +410,4 @@ IOSObjectArray *GsonTypeToken__Annotations$2() {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonTypeToken)
 
-J2OBJC_NAME_MAPPING(GsonTypeToken, "com.google.gson.reflect", "Gson")
+J2OBJC_NAME_MAPPING(GsonTypeToken, "j2objc.gson.reflect", "Gson")

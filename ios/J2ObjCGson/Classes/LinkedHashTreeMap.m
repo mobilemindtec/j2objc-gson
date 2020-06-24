@@ -491,7 +491,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "keySet_LinkedHashTreeMap_", "LGsonLinkedHashTreeMap_KeySet;", .constantValue.asLong = 0, 0x2, 44, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaUtilComparator;", "(Ljava/util/Comparator<-TK;>;)V", "get", "LNSObject;", "(Ljava/lang/Object;)TV;", "containsKey", "put", "LNSObject;LNSObject;", "(TK;TV;)TV;", "remove", "find", "LNSObject;Z", "(TK;Z)Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "findByObject", "(Ljava/lang/Object;)Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "findByEntry", "LJavaUtilMap_Entry;", "(Ljava/util/Map$Entry<**>;)Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "equal", "secondaryHash", "I", "removeInternal", "LGsonLinkedHashTreeMap_Node;Z", "(Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;Z)V", "removeInternalByKey", "replaceInParent", "LGsonLinkedHashTreeMap_Node;LGsonLinkedHashTreeMap_Node;", "(Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;)V", "rebalance", "rotateLeft", "LGsonLinkedHashTreeMap_Node;", "(Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;)V", "rotateRight", "()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;", "()Ljava/util/Set<TK;>;", "doubleCapacity", "[LGsonLinkedHashTreeMap_Node;", "<K:Ljava/lang/Object;V:Ljava/lang/Object;>([Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;)[Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "LJavaIoObjectStreamException;", &GsonLinkedHashTreeMap_NATURAL_ORDER, "Ljava/util/Comparator<Ljava/lang/Comparable;>;", "Ljava/util/Comparator<-TK;>;", "[Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "keySet", "LGsonLinkedHashTreeMap_Node;LGsonLinkedHashTreeMap_AvlIterator;LGsonLinkedHashTreeMap_AvlBuilder;LGsonLinkedHashTreeMap_LinkedTreeMapIterator;LGsonLinkedHashTreeMap_EntrySet;LGsonLinkedHashTreeMap_KeySet;", "<K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/util/AbstractMap<TK;TV;>;Ljava/io/Serializable;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap = { "LinkedHashTreeMap", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x11, 24, 9, -1, 45, -1, 46, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap = { "LinkedHashTreeMap", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x11, 24, 9, -1, 45, -1, 46, -1 };
   return &_GsonLinkedHashTreeMap;
 }
 
@@ -707,7 +707,7 @@ id GsonLinkedHashTreeMap_writeReplace(GsonLinkedHashTreeMap *self) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonLinkedHashTreeMap)
 
-J2OBJC_NAME_MAPPING(GsonLinkedHashTreeMap, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonLinkedHashTreeMap, "j2objc.gson.internal", "Gson")
 
 @implementation GsonLinkedHashTreeMap_1
 
@@ -764,7 +764,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(compareWithId:withId:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "compare", "LJavaLangComparable;LJavaLangComparable;", "LGsonLinkedHashTreeMap;", "Ljava/lang/Object;Ljava/util/Comparator<Ljava/lang/Comparable;>;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_1 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 2, -1, -1, 3, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_1 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 2, -1, -1, 3, -1 };
   return &_GsonLinkedHashTreeMap_1;
 }
 
@@ -889,7 +889,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "height_", "I", .constantValue.asLong = 0, 0x0, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LGsonLinkedHashTreeMap_Node;LNSObject;ILGsonLinkedHashTreeMap_Node;LGsonLinkedHashTreeMap_Node;", "(Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;TK;ILcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;)V", "()TK;", "()TV;", "setValue", "LNSObject;", "(TV;)TV;", "equals", "hashCode", "toString", "()Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "TK;", "hash", "TV;", "LGsonLinkedHashTreeMap;", "<K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Ljava/util/Map$Entry<TK;TV;>;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_Node = { "Node", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x18, 10, 9, 15, -1, -1, 16, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_Node = { "Node", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x18, 10, 9, 15, -1, -1, 16, -1 };
   return &_GsonLinkedHashTreeMap_Node;
 }
 
@@ -983,7 +983,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "stackTop_", "LGsonLinkedHashTreeMap_Node;", .constantValue.asLong = 0, 0x2, -1, -1, 4, -1 },
   };
   static const void *ptrTable[] = { "reset", "LGsonLinkedHashTreeMap_Node;", "(Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;)V", "()Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "LGsonLinkedHashTreeMap;", "<K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_AvlIterator = { "AvlIterator", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8, 3, 1, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_AvlIterator = { "AvlIterator", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8, 3, 1, 5, -1, -1, 6, -1 };
   return &_GsonLinkedHashTreeMap_AvlIterator;
 }
 
@@ -1094,7 +1094,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "size_", "I", .constantValue.asLong = 0, 0x2, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "reset", "I", "add", "LGsonLinkedHashTreeMap_Node;", "(Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;)V", "()Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "LGsonLinkedHashTreeMap;", "<K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_AvlBuilder = { "AvlBuilder", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x18, 4, 4, 7, -1, -1, 8, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_AvlBuilder = { "AvlBuilder", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x18, 4, 4, 7, -1, -1, 8, -1 };
   return &_GsonLinkedHashTreeMap_AvlBuilder;
 }
 
@@ -1164,7 +1164,7 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonLinkedHashTreeMap_AvlBuilder)
     { "expectedModCount_", "I", .constantValue.asLong = 0, 0x0, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "()Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "Lcom/google/gson/internal/LinkedHashTreeMap<TK;TV;>;", "Lcom/google/gson/internal/LinkedHashTreeMap$Node<TK;TV;>;", "LGsonLinkedHashTreeMap;", "<T:Ljava/lang/Object;>Ljava/lang/Object;Ljava/util/Iterator<TT;>;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_LinkedTreeMapIterator = { "LinkedTreeMapIterator", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x402, 4, 4, 3, -1, -1, 4, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_LinkedTreeMapIterator = { "LinkedTreeMapIterator", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x402, 4, 4, 3, -1, -1, 4, -1 };
   return &_GsonLinkedHashTreeMap_LinkedTreeMapIterator;
 }
 
@@ -1254,7 +1254,7 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonLinkedHashTreeMap_LinkedTreeMapIterator)
     { "this$0_", "LGsonLinkedHashTreeMap;", .constantValue.asLong = 0, 0x1012, -1, -1, 4, -1 },
   };
   static const void *ptrTable[] = { "()Ljava/util/Iterator<Ljava/util/Map$Entry<TK;TV;>;>;", "contains", "LNSObject;", "remove", "Lcom/google/gson/internal/LinkedHashTreeMap<TK;TV;>;", "LGsonLinkedHashTreeMap;", "Ljava/util/AbstractSet<Ljava/util/Map$Entry<TK;TV;>;>;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_EntrySet = { "EntrySet", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x10, 6, 1, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_EntrySet = { "EntrySet", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x10, 6, 1, 5, -1, -1, 6, -1 };
   return &_GsonLinkedHashTreeMap_EntrySet;
 }
 
@@ -1298,7 +1298,7 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonLinkedHashTreeMap_EntrySet)
   methods[1].selector = @selector(next);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()Ljava/util/Map$Entry<TK;TV;>;", "LGsonLinkedHashTreeMap_EntrySet;", "iterator", "Lcom/google/gson/internal/LinkedHashTreeMap$LinkedTreeMapIterator<Ljava/util/Map$Entry<TK;TV;>;>;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_EntrySet_1 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_EntrySet_1 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonLinkedHashTreeMap_EntrySet_1;
 }
 
@@ -1370,7 +1370,7 @@ GsonLinkedHashTreeMap_EntrySet_1 *create_GsonLinkedHashTreeMap_EntrySet_1_initWi
     { "this$0_", "LGsonLinkedHashTreeMap;", .constantValue.asLong = 0, 0x1012, -1, -1, 4, -1 },
   };
   static const void *ptrTable[] = { "()Ljava/util/Iterator<TK;>;", "contains", "LNSObject;", "remove", "Lcom/google/gson/internal/LinkedHashTreeMap<TK;TV;>;", "LGsonLinkedHashTreeMap;", "Ljava/util/AbstractSet<TK;>;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_KeySet = { "KeySet", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x10, 6, 1, 5, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_KeySet = { "KeySet", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x10, 6, 1, 5, -1, -1, 6, -1 };
   return &_GsonLinkedHashTreeMap_KeySet;
 }
 
@@ -1414,7 +1414,7 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonLinkedHashTreeMap_KeySet)
   methods[1].selector = @selector(next);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TK;", "LGsonLinkedHashTreeMap_KeySet;", "iterator", "Lcom/google/gson/internal/LinkedHashTreeMap$LinkedTreeMapIterator<TK;>;" };
-  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_KeySet_1 = { "", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
+  static const J2ObjcClassInfo _GsonLinkedHashTreeMap_KeySet_1 = { "", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, 2, 3, -1 };
   return &_GsonLinkedHashTreeMap_KeySet_1;
 }
 

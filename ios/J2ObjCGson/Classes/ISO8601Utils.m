@@ -142,7 +142,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "TIMEZONE_UTC", "LJavaUtilTimeZone;", .constantValue.asLong = 0, 0x1a, -1, 17, -1, -1 },
   };
   static const void *ptrTable[] = { "format", "LJavaUtilDate;", "LJavaUtilDate;Z", "LJavaUtilDate;ZLJavaUtilTimeZone;", "parse", "LNSString;LJavaTextParsePosition;", "LJavaTextParseException;", "checkOffset", "LNSString;IC", "parseInt", "LNSString;II", "LJavaLangNumberFormatException;", "padInt", "LJavaLangStringBuilder;II", "indexOfNonDigit", "LNSString;I", &ComGoogleGsonInternalBindUtilISO8601Utils_UTC_ID, &ComGoogleGsonInternalBindUtilISO8601Utils_TIMEZONE_UTC };
-  static const J2ObjcClassInfo _ComGoogleGsonInternalBindUtilISO8601Utils = { "ISO8601Utils", "com.google.gson.internal.bind.util", ptrTable, methods, fields, 7, 0x1, 9, 2, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _ComGoogleGsonInternalBindUtilISO8601Utils = { "ISO8601Utils", "j2objc.gson.internal.bind.util", ptrTable, methods, fields, 7, 0x1, 9, 2, -1, -1, -1, -1, -1 };
   return &_ComGoogleGsonInternalBindUtilISO8601Utils;
 }
 

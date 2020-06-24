@@ -95,7 +95,7 @@ GsonJsonToken *GsonJsonToken_values_[10];
     { "END_DOCUMENT", "LGsonJsonToken;", .constantValue.asLong = 0, 0x4019, -1, 11, -1, -1 },
   };
   static const void *ptrTable[] = { "valueOf", "LNSString;", &JreEnum(GsonJsonToken, BEGIN_ARRAY), &JreEnum(GsonJsonToken, END_ARRAY), &JreEnum(GsonJsonToken, BEGIN_OBJECT), &JreEnum(GsonJsonToken, END_OBJECT), &JreEnum(GsonJsonToken, NAME), &JreEnum(GsonJsonToken, STRING), &JreEnum(GsonJsonToken, NUMBER), &JreEnum(GsonJsonToken, BOOLEAN), &JreEnum(GsonJsonToken, NULL), &JreEnum(GsonJsonToken, END_DOCUMENT), "Ljava/lang/Enum<Lcom/google/gson/stream/JsonToken;>;" };
-  static const J2ObjcClassInfo _GsonJsonToken = { "JsonToken", "com.google.gson.stream", ptrTable, methods, fields, 7, 0x4011, 2, 10, -1, -1, -1, 12, -1 };
+  static const J2ObjcClassInfo _GsonJsonToken = { "JsonToken", "j2objc.gson.stream", ptrTable, methods, fields, 7, 0x4011, 2, 10, -1, -1, -1, 12, -1 };
   return &_GsonJsonToken;
 }
 
@@ -152,4 +152,4 @@ GsonJsonToken *GsonJsonToken_fromOrdinal(NSUInteger ordinal) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonToken)
 
-J2OBJC_NAME_MAPPING(GsonJsonToken, "com.google.gson.stream", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonToken, "j2objc.gson.stream", "Gson")

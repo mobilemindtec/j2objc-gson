@@ -46,7 +46,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "INSTANCE", "LGsonJsonReaderInternalAccess;", .constantValue.asLong = 0, 0x9, -1, 3, -1, -1 },
   };
   static const void *ptrTable[] = { "promoteNameToValue", "LGsonJsonReader;", "LJavaIoIOException;", &GsonJsonReaderInternalAccess_INSTANCE };
-  static const J2ObjcClassInfo _GsonJsonReaderInternalAccess = { "JsonReaderInternalAccess", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x401, 2, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonReaderInternalAccess = { "JsonReaderInternalAccess", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x401, 2, 1, -1, -1, -1, -1, -1 };
   return &_GsonJsonReaderInternalAccess;
 }
 
@@ -58,4 +58,4 @@ void GsonJsonReaderInternalAccess_init(GsonJsonReaderInternalAccess *self) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonReaderInternalAccess)
 
-J2OBJC_NAME_MAPPING(GsonJsonReaderInternalAccess, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonReaderInternalAccess, "j2objc.gson.internal", "Gson")

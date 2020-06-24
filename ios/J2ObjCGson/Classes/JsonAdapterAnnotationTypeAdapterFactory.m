@@ -87,7 +87,7 @@ J2OBJC_FIELD_SETTER(GsonJsonAdapterAnnotationTypeAdapterFactory, constructorCons
     { "constructorConstructor_", "LGsonConstructorConstructor;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LGsonConstructorConstructor;", "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "getTypeAdapter", "LGsonConstructorConstructor;LGsonGson;LGsonTypeToken;LGsonJsonAdapter;", "(Lcom/google/gson/internal/ConstructorConstructor;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<*>;Lcom/google/gson/annotations/JsonAdapter;)Lcom/google/gson/TypeAdapter<*>;" };
-  static const J2ObjcClassInfo _GsonJsonAdapterAnnotationTypeAdapterFactory = { "JsonAdapterAnnotationTypeAdapterFactory", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonAdapterAnnotationTypeAdapterFactory = { "JsonAdapterAnnotationTypeAdapterFactory", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 1, -1, -1, -1, -1, -1 };
   return &_GsonJsonAdapterAnnotationTypeAdapterFactory;
 }
 
@@ -108,4 +108,4 @@ GsonJsonAdapterAnnotationTypeAdapterFactory *create_GsonJsonAdapterAnnotationTyp
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonAdapterAnnotationTypeAdapterFactory)
 
-J2OBJC_NAME_MAPPING(GsonJsonAdapterAnnotationTypeAdapterFactory, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonAdapterAnnotationTypeAdapterFactory, "j2objc.gson.internal.bind", "Gson")

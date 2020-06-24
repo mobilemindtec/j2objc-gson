@@ -52,7 +52,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(checkArgumentWithBoolean:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "checkNotNull", "LNSObject;", "<T:Ljava/lang/Object;>(TT;)TT;", "checkArgument", "Z" };
-  static const J2ObjcClassInfo _Gson_Gson_Preconditions = { "$Gson$Preconditions", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x11, 3, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _Gson_Gson_Preconditions = { "$Gson$Preconditions", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x11, 3, 0, -1, -1, -1, -1, -1 };
   return &_Gson_Gson_Preconditions;
 }
 
@@ -88,4 +88,4 @@ void Gson_Gson_Preconditions_checkArgumentWithBoolean_(jboolean condition) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(Gson_Gson_Preconditions)
 
-J2OBJC_NAME_MAPPING(Gson_Gson_Preconditions, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(Gson_Gson_Preconditions, "j2objc.gson.internal", "Gson")

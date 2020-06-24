@@ -22,7 +22,7 @@
   methods[0].selector = @selector(translateNameWithJavaLangReflectField:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "translateName", "LJavaLangReflectField;" };
-  static const J2ObjcClassInfo _GsonFieldNamingStrategy = { "FieldNamingStrategy", "com.google.gson", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonFieldNamingStrategy = { "FieldNamingStrategy", "j2objc.gson", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, -1, -1 };
   return &_GsonFieldNamingStrategy;
 }
 
@@ -30,4 +30,4 @@
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonFieldNamingStrategy)
 
-J2OBJC_NAME_MAPPING(GsonFieldNamingStrategy, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonFieldNamingStrategy, "j2objc.gson", "Gson")

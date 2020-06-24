@@ -22,7 +22,7 @@
   methods[0].selector = @selector(createInstanceWithJavaLangReflectType:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "createInstance", "LJavaLangReflectType;", "(Ljava/lang/reflect/Type;)TT;", "<T:Ljava/lang/Object;>Ljava/lang/Object;" };
-  static const J2ObjcClassInfo _GsonInstanceCreator = { "InstanceCreator", "com.google.gson", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, 3, -1 };
+  static const J2ObjcClassInfo _GsonInstanceCreator = { "InstanceCreator", "j2objc.gson", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, 3, -1 };
   return &_GsonInstanceCreator;
 }
 
@@ -30,4 +30,4 @@
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonInstanceCreator)
 
-J2OBJC_NAME_MAPPING(GsonInstanceCreator, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonInstanceCreator, "j2objc.gson", "Gson")

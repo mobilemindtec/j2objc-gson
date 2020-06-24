@@ -1000,7 +1000,7 @@ J2OBJC_INITIALIZED_DEFN(GsonJsonReader)
     { "pathIndices_", "[I", .constantValue.asLong = 0, 0x2, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaIoReader;", "setLenient", "Z", "LJavaIoIOException;", "isLiteral", "C", "nextQuotedValue", "skipQuotedValue", "push", "I", "fillBuffer", "nextNonWhitespace", "skipTo", "LNSString;", "toString", "syntaxError", &GsonJsonReader_NON_EXECUTE_PREFIX };
-  static const J2ObjcClassInfo _GsonJsonReader = { "JsonReader", "com.google.gson.stream", ptrTable, methods, fields, 7, 0x1, 38, 43, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonReader = { "JsonReader", "j2objc.gson.stream", ptrTable, methods, fields, 7, 0x1, 38, 43, -1, -1, -1, -1, -1 };
   return &_GsonJsonReader;
 }
 
@@ -1594,7 +1594,7 @@ void GsonJsonReader_consumeNonExecutePrefix(GsonJsonReader *self) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonReader)
 
-J2OBJC_NAME_MAPPING(GsonJsonReader, "com.google.gson.stream", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonReader, "j2objc.gson.stream", "Gson")
 
 @implementation GsonJsonReader_1
 
@@ -1640,7 +1640,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(promoteNameToValueWithGsonJsonReader:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "promoteNameToValue", "LGsonJsonReader;", "LJavaIoIOException;" };
-  static const J2ObjcClassInfo _GsonJsonReader_1 = { "", "com.google.gson.stream", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonReader_1 = { "", "j2objc.gson.stream", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 1, -1, -1, -1, -1 };
   return &_GsonJsonReader_1;
 }
 

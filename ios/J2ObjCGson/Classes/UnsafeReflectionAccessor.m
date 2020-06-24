@@ -76,7 +76,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "overrideField_", "LJavaLangReflectField;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "makeAccessible", "LJavaLangReflectAccessibleObject;" };
-  static const J2ObjcClassInfo _ComGoogleGsonInternalReflectUnsafeReflectionAccessor = { "UnsafeReflectionAccessor", "com.google.gson.internal.reflect", ptrTable, methods, fields, 7, 0x10, 4, 2, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _ComGoogleGsonInternalReflectUnsafeReflectionAccessor = { "UnsafeReflectionAccessor", "j2objc.gson.internal.reflect", ptrTable, methods, fields, 7, 0x10, 4, 2, -1, -1, -1, -1, -1 };
   return &_ComGoogleGsonInternalReflectUnsafeReflectionAccessor;
 }
 

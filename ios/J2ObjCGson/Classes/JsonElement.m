@@ -201,7 +201,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[23].selector = @selector(description);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "toString" };
-  static const J2ObjcClassInfo _GsonJsonElement = { "JsonElement", "com.google.gson", ptrTable, methods, NULL, 7, 0x401, 24, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonElement = { "JsonElement", "j2objc.gson", ptrTable, methods, NULL, 7, 0x401, 24, 0, -1, -1, -1, -1, -1 };
   return &_GsonJsonElement;
 }
 
@@ -213,4 +213,4 @@ void GsonJsonElement_init(GsonJsonElement *self) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonElement)
 
-J2OBJC_NAME_MAPPING(GsonJsonElement, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonElement, "j2objc.gson", "Gson")

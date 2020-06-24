@@ -47,7 +47,7 @@ J2OBJC_STATIC_FIELD_CONSTANT(GsonMalformedJsonException, serialVersionUID, jlong
     { "serialVersionUID", "J", .constantValue.asLong = GsonMalformedJsonException_serialVersionUID, 0x1a, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LNSString;", "LNSString;LJavaLangThrowable;", "LJavaLangThrowable;" };
-  static const J2ObjcClassInfo _GsonMalformedJsonException = { "MalformedJsonException", "com.google.gson.stream", ptrTable, methods, fields, 7, 0x11, 3, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonMalformedJsonException = { "MalformedJsonException", "j2objc.gson.stream", ptrTable, methods, fields, 7, 0x11, 3, 1, -1, -1, -1, -1, -1 };
   return &_GsonMalformedJsonException;
 }
 
@@ -93,4 +93,4 @@ GsonMalformedJsonException *create_GsonMalformedJsonException_initWithJavaLangTh
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonMalformedJsonException)
 
-J2OBJC_NAME_MAPPING(GsonMalformedJsonException, "com.google.gson.stream", "Gson")
+J2OBJC_NAME_MAPPING(GsonMalformedJsonException, "j2objc.gson.stream", "Gson")

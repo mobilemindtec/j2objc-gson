@@ -106,7 +106,7 @@ J2OBJC_TYPE_LITERAL_HEADER(GsonCollectionTypeAdapterFactory_Adapter)
     { "constructorConstructor_", "LGsonConstructorConstructor;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LGsonConstructorConstructor;", "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "LGsonCollectionTypeAdapterFactory_Adapter;" };
-  static const J2ObjcClassInfo _GsonCollectionTypeAdapterFactory = { "CollectionTypeAdapterFactory", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 2, 1, -1, 4, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonCollectionTypeAdapterFactory = { "CollectionTypeAdapterFactory", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 2, 1, -1, 4, -1, -1, -1 };
   return &_GsonCollectionTypeAdapterFactory;
 }
 
@@ -127,7 +127,7 @@ GsonCollectionTypeAdapterFactory *create_GsonCollectionTypeAdapterFactory_initWi
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonCollectionTypeAdapterFactory)
 
-J2OBJC_NAME_MAPPING(GsonCollectionTypeAdapterFactory, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonCollectionTypeAdapterFactory, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonCollectionTypeAdapterFactory_Adapter
 
@@ -185,7 +185,7 @@ J2OBJC_NAME_MAPPING(GsonCollectionTypeAdapterFactory, "com.google.gson.internal.
     { "constructor_", "LGsonObjectConstructor;", .constantValue.asLong = 0, 0x12, -1, -1, 10, -1 },
   };
   static const void *ptrTable[] = { "LGsonGson;LJavaLangReflectType;LGsonTypeAdapter;LGsonObjectConstructor;", "(Lcom/google/gson/Gson;Ljava/lang/reflect/Type;Lcom/google/gson/TypeAdapter<TE;>;Lcom/google/gson/internal/ObjectConstructor<+Ljava/util/Collection<TE;>;>;)V", "read", "LGsonJsonReader;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonReader;)Ljava/util/Collection<TE;>;", "write", "LGsonJsonWriter;LJavaUtilCollection;", "(Lcom/google/gson/stream/JsonWriter;Ljava/util/Collection<TE;>;)V", "Lcom/google/gson/TypeAdapter<TE;>;", "Lcom/google/gson/internal/ObjectConstructor<+Ljava/util/Collection<TE;>;>;", "LGsonCollectionTypeAdapterFactory;", "<E:Ljava/lang/Object;>Lcom/google/gson/TypeAdapter<Ljava/util/Collection<TE;>;>;" };
-  static const J2ObjcClassInfo _GsonCollectionTypeAdapterFactory_Adapter = { "Adapter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x1a, 3, 2, 11, -1, -1, 12, -1 };
+  static const J2ObjcClassInfo _GsonCollectionTypeAdapterFactory_Adapter = { "Adapter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x1a, 3, 2, 11, -1, -1, 12, -1 };
   return &_GsonCollectionTypeAdapterFactory_Adapter;
 }
 

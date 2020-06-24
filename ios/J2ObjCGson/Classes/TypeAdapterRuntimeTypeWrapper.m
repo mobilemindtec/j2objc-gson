@@ -91,7 +91,7 @@ __attribute__((unused)) static id<JavaLangReflectType> GsonTypeAdapterRuntimeTyp
     { "type_", "LJavaLangReflectType;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LGsonGson;LGsonTypeAdapter;LJavaLangReflectType;", "(Lcom/google/gson/Gson;Lcom/google/gson/TypeAdapter<TT;>;Ljava/lang/reflect/Type;)V", "read", "LGsonJsonReader;", "LJavaIoIOException;", "(Lcom/google/gson/stream/JsonReader;)TT;", "write", "LGsonJsonWriter;LNSObject;", "(Lcom/google/gson/stream/JsonWriter;TT;)V", "getRuntimeTypeIfMoreSpecific", "LJavaLangReflectType;LNSObject;", "Lcom/google/gson/TypeAdapter<TT;>;", "<T:Ljava/lang/Object;>Lcom/google/gson/TypeAdapter<TT;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapterRuntimeTypeWrapper = { "TypeAdapterRuntimeTypeWrapper", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x10, 4, 3, -1, -1, -1, 12, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapterRuntimeTypeWrapper = { "TypeAdapterRuntimeTypeWrapper", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x10, 4, 3, -1, -1, -1, 12, -1 };
   return &_GsonTypeAdapterRuntimeTypeWrapper;
 }
 

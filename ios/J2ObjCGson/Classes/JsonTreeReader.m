@@ -404,7 +404,7 @@ J2OBJC_INITIALIZED_DEFN(GsonJsonTreeReader)
     { "pathIndices_JsonTreeReader_", "[I", .constantValue.asLong = 0, 0x2, 12, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LGsonJsonElement;", "LJavaIoIOException;", "expect", "LGsonJsonToken;", "toString", "push", "LNSObject;", &GsonJsonTreeReader_UNREADABLE_READER, &GsonJsonTreeReader_SENTINEL_CLOSED, "stack", "stackSize", "pathNames", "pathIndices" };
-  static const J2ObjcClassInfo _GsonJsonTreeReader = { "JsonTreeReader", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 24, 6, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonTreeReader = { "JsonTreeReader", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 24, 6, -1, -1, -1, -1, -1 };
   return &_GsonJsonTreeReader;
 }
 
@@ -472,7 +472,7 @@ NSString *GsonJsonTreeReader_locationString(GsonJsonTreeReader *self) {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonTreeReader)
 
-J2OBJC_NAME_MAPPING(GsonJsonTreeReader, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonTreeReader, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonJsonTreeReader_1
 
@@ -507,7 +507,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[2].selector = @selector(close);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "read", "[CII", "LJavaIoIOException;", "LGsonJsonTreeReader;" };
-  static const J2ObjcClassInfo _GsonJsonTreeReader_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 3, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonTreeReader_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 3, 0, 3, -1, -1, -1, -1 };
   return &_GsonJsonTreeReader_1;
 }
 

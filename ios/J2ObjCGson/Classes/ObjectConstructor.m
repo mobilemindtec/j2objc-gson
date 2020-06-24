@@ -22,7 +22,7 @@
   methods[0].selector = @selector(construct);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "()TT;", "<T:Ljava/lang/Object;>Ljava/lang/Object;" };
-  static const J2ObjcClassInfo _GsonObjectConstructor = { "ObjectConstructor", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, 1, -1 };
+  static const J2ObjcClassInfo _GsonObjectConstructor = { "ObjectConstructor", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, 1, -1 };
   return &_GsonObjectConstructor;
 }
 
@@ -30,4 +30,4 @@
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonObjectConstructor)
 
-J2OBJC_NAME_MAPPING(GsonObjectConstructor, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonObjectConstructor, "j2objc.gson.internal", "Gson")

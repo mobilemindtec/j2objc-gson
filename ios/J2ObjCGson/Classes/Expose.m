@@ -34,7 +34,7 @@ __attribute__((unused)) static IOSObjectArray *GsonExpose__Annotations$0(void);
 }
 
 - (NSString *)description {
-  return [NSString stringWithFormat:@"@com.google.gson.annotations.Expose(serialize=%d, deserialize=%d)", serialize_, deserialize_];
+  return [NSString stringWithFormat:@"@j2objc.gson.annotations.Expose(serialize=%d, deserialize=%d)", serialize_, deserialize_];
 }
 
 - (jboolean)isEqual:(id)obj {
@@ -61,7 +61,7 @@ __attribute__((unused)) static IOSObjectArray *GsonExpose__Annotations$0(void);
     { "deserialize_", "Z", .constantValue.asLong = 0, 0x1000, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { (void *)&GsonExpose__Annotations$0 };
-  static const J2ObjcClassInfo _GsonExpose = { "Expose", "com.google.gson.annotations", ptrTable, methods, fields, 7, 0x2609, 2, 2, -1, -1, -1, -1, 0 };
+  static const J2ObjcClassInfo _GsonExpose = { "Expose", "j2objc.gson.annotations", ptrTable, methods, fields, 7, 0x2609, 2, 2, -1, -1, -1, -1, 0 };
   return &_GsonExpose;
 }
 
@@ -80,4 +80,4 @@ IOSObjectArray *GsonExpose__Annotations$0() {
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonExpose)
 
-J2OBJC_NAME_MAPPING(GsonExpose, "com.google.gson.annotations", "Gson")
+J2OBJC_NAME_MAPPING(GsonExpose, "j2objc.gson.annotations", "Gson")

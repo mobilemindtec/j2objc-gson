@@ -86,7 +86,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[3].selector = @selector(parseWithGsonJsonReader:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "parse", "LNSString;", "LGsonJsonSyntaxException;", "LJavaIoReader;", "LGsonJsonIOException;LGsonJsonSyntaxException;", "LGsonJsonReader;" };
-  static const J2ObjcClassInfo _GsonJsonParser = { "JsonParser", "com.google.gson", ptrTable, methods, NULL, 7, 0x11, 4, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonParser = { "JsonParser", "j2objc.gson", ptrTable, methods, NULL, 7, 0x11, 4, 0, -1, -1, -1, -1, -1 };
   return &_GsonJsonParser;
 }
 
@@ -106,4 +106,4 @@ GsonJsonParser *create_GsonJsonParser_init() {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonParser)
 
-J2OBJC_NAME_MAPPING(GsonJsonParser, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonParser, "j2objc.gson", "Gson")

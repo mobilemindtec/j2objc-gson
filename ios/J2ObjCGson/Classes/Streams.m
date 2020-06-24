@@ -140,7 +140,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[3].selector = @selector(writerForAppendableWithJavaLangAppendable:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "parse", "LGsonJsonReader;", "LGsonJsonParseException;", "write", "LGsonJsonElement;LGsonJsonWriter;", "LJavaIoIOException;", "writerForAppendable", "LJavaLangAppendable;", "LGsonStreams_AppendableWriter;" };
-  static const J2ObjcClassInfo _GsonStreams = { "Streams", "com.google.gson.internal", ptrTable, methods, NULL, 7, 0x11, 4, 0, -1, 8, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonStreams = { "Streams", "j2objc.gson.internal", ptrTable, methods, NULL, 7, 0x11, 4, 0, -1, 8, -1, -1, -1 };
   return &_GsonStreams;
 }
 
@@ -196,7 +196,7 @@ JavaIoWriter *GsonStreams_writerForAppendableWithJavaLangAppendable_(id<JavaLang
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonStreams)
 
-J2OBJC_NAME_MAPPING(GsonStreams, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(GsonStreams, "j2objc.gson.internal", "Gson")
 
 @implementation GsonStreams_AppendableWriter
 
@@ -244,7 +244,7 @@ J2OBJC_NAME_MAPPING(GsonStreams, "com.google.gson.internal", "Gson")
     { "currentWrite_", "LGsonStreams_AppendableWriter_CurrentWrite;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaLangAppendable;", "write", "[CII", "LJavaIoIOException;", "I", "LGsonStreams;", "LGsonStreams_AppendableWriter_CurrentWrite;" };
-  static const J2ObjcClassInfo _GsonStreams_AppendableWriter = { "AppendableWriter", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x1a, 5, 2, 5, 6, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonStreams_AppendableWriter = { "AppendableWriter", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x1a, 5, 2, 5, 6, -1, -1, -1 };
   return &_GsonStreams_AppendableWriter;
 }
 
@@ -315,7 +315,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "chars_", "[C", .constantValue.asLong = 0, 0x0, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "length", "charAt", "I", "subSequence", "II", "LGsonStreams_AppendableWriter;" };
-  static const J2ObjcClassInfo _GsonStreams_AppendableWriter_CurrentWrite = { "CurrentWrite", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x8, 4, 1, 5, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonStreams_AppendableWriter_CurrentWrite = { "CurrentWrite", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x8, 4, 1, 5, -1, -1, -1, -1 };
   return &_GsonStreams_AppendableWriter_CurrentWrite;
 }
 

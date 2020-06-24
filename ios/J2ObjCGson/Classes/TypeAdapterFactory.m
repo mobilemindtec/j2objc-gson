@@ -22,7 +22,7 @@
   methods[0].selector = @selector(createWithGsonGson:withGsonTypeToken:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;" };
-  static const J2ObjcClassInfo _GsonTypeAdapterFactory = { "TypeAdapterFactory", "com.google.gson", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonTypeAdapterFactory = { "TypeAdapterFactory", "j2objc.gson", ptrTable, methods, NULL, 7, 0x609, 1, 0, -1, -1, -1, -1, -1 };
   return &_GsonTypeAdapterFactory;
 }
 
@@ -30,4 +30,4 @@
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonTypeAdapterFactory)
 
-J2OBJC_NAME_MAPPING(GsonTypeAdapterFactory, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonTypeAdapterFactory, "j2objc.gson", "Gson")

@@ -47,7 +47,7 @@
     { "serialVersionUID", "J", .constantValue.asLong = GsonJsonParseException_serialVersionUID, 0x18, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LNSString;", "LNSString;LJavaLangThrowable;", "LJavaLangThrowable;" };
-  static const J2ObjcClassInfo _GsonJsonParseException = { "JsonParseException", "com.google.gson", ptrTable, methods, fields, 7, 0x1, 3, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonParseException = { "JsonParseException", "j2objc.gson", ptrTable, methods, fields, 7, 0x1, 3, 1, -1, -1, -1, -1, -1 };
   return &_GsonJsonParseException;
 }
 
@@ -91,4 +91,4 @@ GsonJsonParseException *create_GsonJsonParseException_initWithJavaLangThrowable_
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonJsonParseException)
 
-J2OBJC_NAME_MAPPING(GsonJsonParseException, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonParseException, "j2objc.gson", "Gson")

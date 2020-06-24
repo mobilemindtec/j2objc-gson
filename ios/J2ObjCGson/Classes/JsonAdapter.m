@@ -29,7 +29,7 @@ __attribute__((unused)) static IOSObjectArray *GsonJsonAdapter__Annotations$0(vo
 }
 
 - (NSString *)description {
-  return [NSString stringWithFormat:@"@com.google.gson.annotations.JsonAdapter(value=%@, nullSafe=%d)", value_, nullSafe_];
+  return [NSString stringWithFormat:@"@j2objc.gson.annotations.JsonAdapter(value=%@, nullSafe=%d)", value_, nullSafe_];
 }
 
 - (jboolean)isEqual:(id)obj {
@@ -56,7 +56,7 @@ __attribute__((unused)) static IOSObjectArray *GsonJsonAdapter__Annotations$0(vo
     { "nullSafe_", "Z", .constantValue.asLong = 0, 0x1000, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "Ljava/lang/Class<*>;", (void *)&GsonJsonAdapter__Annotations$0 };
-  static const J2ObjcClassInfo _GsonJsonAdapter = { "JsonAdapter", "com.google.gson.annotations", ptrTable, methods, fields, 7, 0x2609, 2, 2, -1, -1, -1, -1, 1 };
+  static const J2ObjcClassInfo _GsonJsonAdapter = { "JsonAdapter", "j2objc.gson.annotations", ptrTable, methods, fields, 7, 0x2609, 2, 2, -1, -1, -1, -1, 1 };
   return &_GsonJsonAdapter;
 }
 
@@ -75,4 +75,4 @@ IOSObjectArray *GsonJsonAdapter__Annotations$0() {
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonJsonAdapter)
 
-J2OBJC_NAME_MAPPING(GsonJsonAdapter, "com.google.gson.annotations", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonAdapter, "j2objc.gson.annotations", "Gson")

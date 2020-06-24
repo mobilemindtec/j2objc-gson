@@ -51,7 +51,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "instance", "LComGoogleGsonInternalReflectReflectionAccessor;", .constantValue.asLong = 0, 0x1a, -1, 2, -1, -1 },
   };
   static const void *ptrTable[] = { "makeAccessible", "LJavaLangReflectAccessibleObject;", &ComGoogleGsonInternalReflectReflectionAccessor_instance };
-  static const J2ObjcClassInfo _ComGoogleGsonInternalReflectReflectionAccessor = { "ReflectionAccessor", "com.google.gson.internal.reflect", ptrTable, methods, fields, 7, 0x401, 3, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _ComGoogleGsonInternalReflectReflectionAccessor = { "ReflectionAccessor", "j2objc.gson.internal.reflect", ptrTable, methods, fields, 7, 0x401, 3, 1, -1, -1, -1, -1, -1 };
   return &_ComGoogleGsonInternalReflectReflectionAccessor;
 }
 

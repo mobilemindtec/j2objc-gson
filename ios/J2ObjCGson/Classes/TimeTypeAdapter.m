@@ -106,7 +106,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "format_", "LJavaTextDateFormat;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LJavaSqlTime;", &GsonTimeTypeAdapter_FACTORY, "Lcom/google/gson/TypeAdapter<Ljava/sql/Time;>;" };
-  static const J2ObjcClassInfo _GsonTimeTypeAdapter = { "TimeTypeAdapter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 2, -1, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonTimeTypeAdapter = { "TimeTypeAdapter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 2, -1, -1, -1, 6, -1 };
   return &_GsonTimeTypeAdapter;
 }
 
@@ -134,7 +134,7 @@ GsonTimeTypeAdapter *create_GsonTimeTypeAdapter_init() {
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonTimeTypeAdapter)
 
-J2OBJC_NAME_MAPPING(GsonTimeTypeAdapter, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonTimeTypeAdapter, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonTimeTypeAdapter_1
 
@@ -162,7 +162,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(createWithGsonGson:withGsonTypeToken:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "LGsonTimeTypeAdapter;" };
-  static const J2ObjcClassInfo _GsonTimeTypeAdapter_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonTimeTypeAdapter_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
   return &_GsonTimeTypeAdapter_1;
 }
 

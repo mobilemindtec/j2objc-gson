@@ -343,7 +343,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "EMPTY_TYPE_ARRAY", "[LJavaLangReflectType;", .constantValue.asLong = 0, 0x18, -1, 40, -1, -1 },
   };
   static const void *ptrTable[] = { "newParameterizedTypeWithOwner", "LJavaLangReflectType;LJavaLangReflectType;[LJavaLangReflectType;", "arrayOf", "LJavaLangReflectType;", "subtypeOf", "supertypeOf", "canonicalize", "getRawType", "(Ljava/lang/reflect/Type;)Ljava/lang/Class<*>;", "equal", "LNSObject;LNSObject;", "equals", "LJavaLangReflectType;LJavaLangReflectType;", "hashCodeOrZero", "LNSObject;", "typeToString", "getGenericSupertype", "LJavaLangReflectType;LIOSClass;LIOSClass;", "(Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Ljava/lang/reflect/Type;", "getSupertype", "getArrayComponentType", "getCollectionElementType", "LJavaLangReflectType;LIOSClass;", "(Ljava/lang/reflect/Type;Ljava/lang/Class<*>;)Ljava/lang/reflect/Type;", "getMapKeyAndValueTypes", "(Ljava/lang/reflect/Type;Ljava/lang/Class<*>;)[Ljava/lang/reflect/Type;", "resolve", "LJavaLangReflectType;LIOSClass;LJavaLangReflectType;", "(Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;", "LJavaLangReflectType;LIOSClass;LJavaLangReflectType;LJavaUtilCollection;", "(Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Ljava/lang/reflect/Type;Ljava/util/Collection<Ljava/lang/reflect/TypeVariable;>;)Ljava/lang/reflect/Type;", "resolveTypeVariable", "LJavaLangReflectType;LIOSClass;LJavaLangReflectTypeVariable;", "(Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Ljava/lang/reflect/TypeVariable<*>;)Ljava/lang/reflect/Type;", "indexOf", "[LNSObject;LNSObject;", "declaringClassOf", "LJavaLangReflectTypeVariable;", "(Ljava/lang/reflect/TypeVariable<*>;)Ljava/lang/Class<*>;", "checkNotPrimitive", &Gson_Gson_Types_EMPTY_TYPE_ARRAY, "LGson_Gson_Types_ParameterizedTypeImpl;LGson_Gson_Types_GenericArrayTypeImpl;LGson_Gson_Types_WildcardTypeImpl;" };
-  static const J2ObjcClassInfo _Gson_Gson_Types = { "$Gson$Types", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x11, 22, 1, -1, 41, -1, -1, -1 };
+  static const J2ObjcClassInfo _Gson_Gson_Types = { "$Gson$Types", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x11, 22, 1, -1, 41, -1, -1, -1 };
   return &_Gson_Gson_Types;
 }
 
@@ -695,7 +695,7 @@ void Gson_Gson_Types_checkNotPrimitiveWithJavaLangReflectType_(id<JavaLangReflec
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(Gson_Gson_Types)
 
-J2OBJC_NAME_MAPPING(Gson_Gson_Types, "com.google.gson.internal", "Gson")
+J2OBJC_NAME_MAPPING(Gson_Gson_Types, "j2objc.gson.internal", "Gson")
 
 @implementation Gson_Gson_Types_ParameterizedTypeImpl
 
@@ -771,7 +771,7 @@ J2OBJC_NAME_MAPPING(Gson_Gson_Types, "com.google.gson.internal", "Gson")
     { "serialVersionUID", "J", .constantValue.asLong = Gson_Gson_Types_ParameterizedTypeImpl_serialVersionUID, 0x1a, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaLangReflectType;LJavaLangReflectType;[LJavaLangReflectType;", "equals", "LNSObject;", "hashCode", "toString", "LGson_Gson_Types;" };
-  static const J2ObjcClassInfo _Gson_Gson_Types_ParameterizedTypeImpl = { "ParameterizedTypeImpl", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x1a, 7, 4, 5, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _Gson_Gson_Types_ParameterizedTypeImpl = { "ParameterizedTypeImpl", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x1a, 7, 4, 5, -1, -1, -1, -1 };
   return &_Gson_Gson_Types_ParameterizedTypeImpl;
 }
 
@@ -853,7 +853,7 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(Gson_Gson_Types_ParameterizedTypeImpl)
     { "serialVersionUID", "J", .constantValue.asLong = Gson_Gson_Types_GenericArrayTypeImpl_serialVersionUID, 0x1a, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LJavaLangReflectType;", "equals", "LNSObject;", "hashCode", "toString", "LGson_Gson_Types;" };
-  static const J2ObjcClassInfo _Gson_Gson_Types_GenericArrayTypeImpl = { "GenericArrayTypeImpl", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x1a, 5, 2, 5, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _Gson_Gson_Types_GenericArrayTypeImpl = { "GenericArrayTypeImpl", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x1a, 5, 2, 5, -1, -1, -1, -1 };
   return &_Gson_Gson_Types_GenericArrayTypeImpl;
 }
 
@@ -939,7 +939,7 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(Gson_Gson_Types_GenericArrayTypeImpl)
     { "serialVersionUID", "J", .constantValue.asLong = Gson_Gson_Types_WildcardTypeImpl_serialVersionUID, 0x1a, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "[LJavaLangReflectType;[LJavaLangReflectType;", "equals", "LNSObject;", "hashCode", "toString", "LGson_Gson_Types;" };
-  static const J2ObjcClassInfo _Gson_Gson_Types_WildcardTypeImpl = { "WildcardTypeImpl", "com.google.gson.internal", ptrTable, methods, fields, 7, 0x1a, 6, 3, 5, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _Gson_Gson_Types_WildcardTypeImpl = { "WildcardTypeImpl", "j2objc.gson.internal", ptrTable, methods, fields, 7, 0x1a, 6, 3, 5, -1, -1, -1, -1 };
   return &_Gson_Gson_Types_WildcardTypeImpl;
 }
 

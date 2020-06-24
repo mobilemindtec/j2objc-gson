@@ -66,7 +66,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "NONEMPTY_DOCUMENT", "I", .constantValue.asInt = GsonJsonScope_NONEMPTY_DOCUMENT, 0x18, -1, -1, -1, -1 },
     { "CLOSED", "I", .constantValue.asInt = GsonJsonScope_CLOSED, 0x18, -1, -1, -1, -1 },
   };
-  static const J2ObjcClassInfo _GsonJsonScope = { "JsonScope", "com.google.gson.stream", NULL, methods, fields, 7, 0x10, 1, 8, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonScope = { "JsonScope", "j2objc.gson.stream", NULL, methods, fields, 7, 0x10, 1, 8, -1, -1, -1, -1, -1 };
   return &_GsonJsonScope;
 }
 

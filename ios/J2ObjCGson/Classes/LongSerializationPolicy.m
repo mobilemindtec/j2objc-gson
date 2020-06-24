@@ -90,7 +90,7 @@ GsonLongSerializationPolicy *GsonLongSerializationPolicy_values_[2];
     { "STRING", "LGsonLongSerializationPolicy;", .constantValue.asLong = 0, 0x4019, -1, 5, -1, -1 },
   };
   static const void *ptrTable[] = { "serialize", "LJavaLangLong;", "valueOf", "LNSString;", &JreEnum(GsonLongSerializationPolicy, DEFAULT), &JreEnum(GsonLongSerializationPolicy, STRING), "Ljava/lang/Enum<Lcom/google/gson/LongSerializationPolicy;>;" };
-  static const J2ObjcClassInfo _GsonLongSerializationPolicy = { "LongSerializationPolicy", "com.google.gson", ptrTable, methods, fields, 7, 0x4401, 3, 2, -1, -1, -1, 6, -1 };
+  static const J2ObjcClassInfo _GsonLongSerializationPolicy = { "LongSerializationPolicy", "j2objc.gson", ptrTable, methods, fields, 7, 0x4401, 3, 2, -1, -1, -1, 6, -1 };
   return &_GsonLongSerializationPolicy;
 }
 
@@ -139,7 +139,7 @@ GsonLongSerializationPolicy *GsonLongSerializationPolicy_fromOrdinal(NSUInteger 
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonLongSerializationPolicy)
 
-J2OBJC_NAME_MAPPING(GsonLongSerializationPolicy, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonLongSerializationPolicy, "j2objc.gson", "Gson")
 
 @implementation GsonLongSerializationPolicy_1
 
@@ -161,7 +161,7 @@ J2OBJC_NAME_MAPPING(GsonLongSerializationPolicy, "com.google.gson", "Gson")
   methods[0].selector = @selector(serializeWithJavaLangLong:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "serialize", "LJavaLangLong;", "LGsonLongSerializationPolicy;" };
-  static const J2ObjcClassInfo _GsonLongSerializationPolicy_1 = { "", "com.google.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonLongSerializationPolicy_1 = { "", "j2objc.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
   return &_GsonLongSerializationPolicy_1;
 }
 
@@ -195,7 +195,7 @@ GsonLongSerializationPolicy_1 *new_GsonLongSerializationPolicy_1_initWithNSStrin
   methods[0].selector = @selector(serializeWithJavaLangLong:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "serialize", "LJavaLangLong;", "LGsonLongSerializationPolicy;" };
-  static const J2ObjcClassInfo _GsonLongSerializationPolicy_2 = { "", "com.google.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonLongSerializationPolicy_2 = { "", "j2objc.gson", ptrTable, methods, NULL, 7, 0xc018, 1, 0, 2, -1, -1, -1, -1 };
   return &_GsonLongSerializationPolicy_2;
 }
 

@@ -24,7 +24,7 @@
   methods[1].selector = @selector(serializeWithId:withJavaLangReflectType:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "serialize", "LNSObject;", "LNSObject;LJavaLangReflectType;" };
-  static const J2ObjcClassInfo _GsonJsonSerializationContext = { "JsonSerializationContext", "com.google.gson", ptrTable, methods, NULL, 7, 0x609, 2, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonJsonSerializationContext = { "JsonSerializationContext", "j2objc.gson", ptrTable, methods, NULL, 7, 0x609, 2, 0, -1, -1, -1, -1, -1 };
   return &_GsonJsonSerializationContext;
 }
 
@@ -32,4 +32,4 @@
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonJsonSerializationContext)
 
-J2OBJC_NAME_MAPPING(GsonJsonSerializationContext, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonJsonSerializationContext, "j2objc.gson", "Gson")

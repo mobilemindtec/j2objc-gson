@@ -24,7 +24,7 @@
   methods[1].selector = @selector(shouldSkipClassWithIOSClass:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "shouldSkipField", "LGsonFieldAttributes;", "shouldSkipClass", "LIOSClass;", "(Ljava/lang/Class<*>;)Z" };
-  static const J2ObjcClassInfo _GsonExclusionStrategy = { "ExclusionStrategy", "com.google.gson", ptrTable, methods, NULL, 7, 0x609, 2, 0, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonExclusionStrategy = { "ExclusionStrategy", "j2objc.gson", ptrTable, methods, NULL, 7, 0x609, 2, 0, -1, -1, -1, -1, -1 };
   return &_GsonExclusionStrategy;
 }
 
@@ -32,4 +32,4 @@
 
 J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(GsonExclusionStrategy)
 
-J2OBJC_NAME_MAPPING(GsonExclusionStrategy, "com.google.gson", "Gson")
+J2OBJC_NAME_MAPPING(GsonExclusionStrategy, "j2objc.gson", "Gson")

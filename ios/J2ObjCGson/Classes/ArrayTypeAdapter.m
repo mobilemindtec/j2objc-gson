@@ -119,7 +119,7 @@ id<GsonTypeAdapterFactory> GsonArrayTypeAdapter_FACTORY;
     { "componentTypeAdapter_", "LGsonTypeAdapter;", .constantValue.asLong = 0, 0x12, -1, -1, 9, -1 },
   };
   static const void *ptrTable[] = { "LGsonGson;LGsonTypeAdapter;LIOSClass;", "(Lcom/google/gson/Gson;Lcom/google/gson/TypeAdapter<TE;>;Ljava/lang/Class<TE;>;)V", "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSObject;", &GsonArrayTypeAdapter_FACTORY, "Ljava/lang/Class<TE;>;", "Lcom/google/gson/TypeAdapter<TE;>;", "<E:Ljava/lang/Object;>Lcom/google/gson/TypeAdapter<Ljava/lang/Object;>;" };
-  static const J2ObjcClassInfo _GsonArrayTypeAdapter = { "ArrayTypeAdapter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 3, -1, -1, -1, 10, -1 };
+  static const J2ObjcClassInfo _GsonArrayTypeAdapter = { "ArrayTypeAdapter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 3, -1, -1, -1, 10, -1 };
   return &_GsonArrayTypeAdapter;
 }
 
@@ -148,7 +148,7 @@ GsonArrayTypeAdapter *create_GsonArrayTypeAdapter_initWithGsonGson_withGsonTypeA
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonArrayTypeAdapter)
 
-J2OBJC_NAME_MAPPING(GsonArrayTypeAdapter, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonArrayTypeAdapter, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonArrayTypeAdapter_1
 
@@ -182,7 +182,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(createWithGsonGson:withGsonTypeToken:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "LGsonArrayTypeAdapter;" };
-  static const J2ObjcClassInfo _GsonArrayTypeAdapter_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonArrayTypeAdapter_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
   return &_GsonArrayTypeAdapter_1;
 }
 

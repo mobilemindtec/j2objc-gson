@@ -63,7 +63,7 @@ J2OBJC_IGNORE_DESIGNATED_END
     { "majorJavaVersion", "I", .constantValue.asLong = 0, 0x1a, -1, 0, -1, -1 },
   };
   static const void *ptrTable[] = { &ComGoogleGsonUtilVersionUtils_majorJavaVersion };
-  static const J2ObjcClassInfo _ComGoogleGsonUtilVersionUtils = { "VersionUtils", "com.google.gson.util", ptrTable, methods, fields, 7, 0x1, 4, 1, -1, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _ComGoogleGsonUtilVersionUtils = { "VersionUtils", "j2objc.gson.util", ptrTable, methods, fields, 7, 0x1, 4, 1, -1, -1, -1, -1, -1 };
   return &_ComGoogleGsonUtilVersionUtils;
 }
 

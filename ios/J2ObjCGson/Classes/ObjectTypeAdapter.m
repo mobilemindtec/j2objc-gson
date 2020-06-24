@@ -132,7 +132,7 @@ id<GsonTypeAdapterFactory> GsonObjectTypeAdapter_FACTORY;
     { "gson_", "LGsonGson;", .constantValue.asLong = 0, 0x12, -1, -1, -1, -1 },
   };
   static const void *ptrTable[] = { "LGsonGson;", "read", "LGsonJsonReader;", "LJavaIoIOException;", "write", "LGsonJsonWriter;LNSObject;", &GsonObjectTypeAdapter_FACTORY, "Lcom/google/gson/TypeAdapter<Ljava/lang/Object;>;" };
-  static const J2ObjcClassInfo _GsonObjectTypeAdapter = { "ObjectTypeAdapter", "com.google.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 2, -1, -1, -1, 7, -1 };
+  static const J2ObjcClassInfo _GsonObjectTypeAdapter = { "ObjectTypeAdapter", "j2objc.gson.internal.bind", ptrTable, methods, fields, 7, 0x11, 3, 2, -1, -1, -1, 7, -1 };
   return &_GsonObjectTypeAdapter;
 }
 
@@ -160,7 +160,7 @@ GsonObjectTypeAdapter *create_GsonObjectTypeAdapter_initWithGsonGson_(GsonGson *
 
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(GsonObjectTypeAdapter)
 
-J2OBJC_NAME_MAPPING(GsonObjectTypeAdapter, "com.google.gson.internal.bind", "Gson")
+J2OBJC_NAME_MAPPING(GsonObjectTypeAdapter, "j2objc.gson.internal.bind", "Gson")
 
 @implementation GsonObjectTypeAdapter_1
 
@@ -191,7 +191,7 @@ J2OBJC_IGNORE_DESIGNATED_END
   methods[1].selector = @selector(createWithGsonGson:withGsonTypeToken:);
   #pragma clang diagnostic pop
   static const void *ptrTable[] = { "create", "LGsonGson;LGsonTypeToken;", "<T:Ljava/lang/Object;>(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;", "LGsonObjectTypeAdapter;" };
-  static const J2ObjcClassInfo _GsonObjectTypeAdapter_1 = { "", "com.google.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
+  static const J2ObjcClassInfo _GsonObjectTypeAdapter_1 = { "", "j2objc.gson.internal.bind", ptrTable, methods, NULL, 7, 0x8018, 2, 0, 3, -1, -1, -1, -1 };
   return &_GsonObjectTypeAdapter_1;
 }
 
